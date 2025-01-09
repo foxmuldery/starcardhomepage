@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摘星卡片 - 简洁、高效、优雅的文字分享工具</title>
+    <style>
+        :root {
+            --primary: #5B67FF;
+            --primary-light: #F0F3FF;
+            --text: #2C3E50;
+            --bg: #ffffff;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            background: var(--bg);
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, var(--primary-light) 0%, #FFFFFF 100%);
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+        }
+    
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+            animation: fadeInUp 0.8s ease;
+        }
+    
+        .hero p {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+    
+        .hero-desc {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+            animation: fadeInUp 1.2s ease;
+        }
+    
+        .demo-area {
+            background: var(--primary-light);
+            padding: 2rem;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(91, 103, 255, 0.1);
+        }
+    
+        .demo-text {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(91, 103, 255, 0.05);
+            cursor: text;
+        }
+    
+        .instructions {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            margin: 3rem 0;
+            box-shadow: 0 4px 6px -1px rgba(91, 103, 255, 0.1);
+        }
+    
+        .instructions h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+    
+        .instructions ol {
+            padding-left: 1.5rem;
+            counter-reset: step;
+        }
+    
+        .instructions li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            position: relative;
+            padding-left: 1rem;
+        }
+    
+        .features {
+            margin: 4rem 0;
+        }
+    
+        .features h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary);
+            font-size: 2rem;
+        }
+    
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+    
+        .feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(91, 103, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px -1px rgba(91, 103, 255, 0.15);
+        }
+    
+        .feature h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    
+        .feature p {
+            color: #666;
+            line-height: 1.7;
+        }
+    
+        .benefits {
+            margin: 4rem 0;
+            padding: 3rem 0;
+            background: var(--primary-light);
+            border-radius: 1rem;
+        }
+    
+        .benefits h2 {
+            text-align: center;
+            color: var(--primary);
+            margin-bottom: 3rem;
+            font-size: 2rem;
+        }
+    
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+    
+        .benefit-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(91, 103, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+    
+        .benefit-item:hover {
+            transform: translateY(-5px);
+        }
+    
+        .benefit-item h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+    
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 4rem;
+            border-top: 1px solid #eee;
+        }
+    
+        .footer-links {
+            margin: 1rem 0;
+        }
+    
+        .footer-links a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s ease;
+        }
+    
+        .footer-links a:hover {
+            color: var(--text);
+        }
+
+        /* 添加新的demo演示样式 */
+        .demo-steps {
+            display: none;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 8px rgba(91, 103, 255, 0.1);
+            animation: fadeIn 0.5s ease;
+        }
+
+        .demo-step {
+            display: none;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            background: var(--primary-light);
+        }
+
+        .demo-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(91, 103, 255, 0.15);
+            margin: 1rem 0;
+            position: relative;
+        }
+
+        .demo-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .demo-button {
+            padding: 0.5rem 1.5rem;
+            border-radius: 0.5rem;
+            border: none;
+            background: var(--primary);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .demo-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(91, 103, 255, 0.2);
+        }
+
+        .usage-section {
+    padding: 2rem 0;
+        }
+
+        .usage-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .usage-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(91, 103, 255, 0.1);
+        }
+
+        .usage-item h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .usage-item p {
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            background: var(--primary-light);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .contact {
+            margin-top: 1rem;
+        }
+
+        .contact a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .usage-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .usage-item {
+                padding: 1rem;
+            }
+        }
+
+
+
+
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+
+
+
+
+
+
+    
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+    
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+    
+            .hero p {
+                font-size: 1.2rem;
+            }
+    
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+    
+            .demo-area {
+                padding: 1rem;
+            }
+    
+            .demo-text {
+                padding: 1.5rem;
+                font-size: 1rem;
+            }
+    
+            .instructions {
+                padding: 1.5rem;
+            }
+        }
+    
+        /* 深色模式支持 */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #ffffff;
+                --text: #2C3E50;
+                --primary-light: #F0F3FF;
+            }
+    
+            .feature,
+            .benefit-item,
+            .demo-text {
+                background: #ffffff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>✨ 摘星卡片</h1>
+            <p>简洁、高效、优雅的文字分享工具</p>
+            <div class="hero-desc">
+                将精彩文字转化为精美卡片，让阅读与分享都充满仪式感
+            </div>
+        </section>
+
+        <section class="demo-area">
+            <div class="demo-text">
+                试试选中这段文字！摘星卡片可以让您轻松地将选中的文字转换成精美的卡片。无论是阅读时遇到的金句，还是想要分享的观点，都能一键生成精美的分享卡片。支持自动生成二维码，方便读者追溯原文。让分享更加优雅，让知识传播更有温度。
+            </div>
+        </section>
+
+        <section class="instructions">
+            <h2>🎯 使用方法</h2>
+            <div class="instruction-steps">
+                <div class="step">
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <p>在任意网页选中想要分享的文字片段</p>
+                        <div class="step-image">
+                            <img src="./pics/click.png" alt="选中文字示例" />
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="step">
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <p>点击"生成摘星卡片"按钮</p>
+                        <div class="step-image">
+                            <img src="./pics/create.png" alt="点击生成按钮" />
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="step">
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <p>下载或复制生成的精美卡片</p>
+                        <div class="step-image">
+                            <img src="./pics/choose.png" alt="卡片预览和下载" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+        .instruction-steps {
+            display: grid;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .step {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(91, 103, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .step:hover {
+            transform: translateY(-5px);
+        }
+        
+        .step-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .step-number {
+            width: 2rem;
+            height: 2rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .step p {
+            font-size: 1.1rem;
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        
+        .step-image {
+            background: var(--primary-light);
+            border-radius: 0.8rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .step-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 8px rgba(91, 103, 255, 0.1);
+        }
+        
+        @media (min-width: 768px) {
+            .instruction-steps {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .instruction-steps {
+                grid-template-columns: 1fr;
+            }
+            
+            .step {
+                padding: 1rem;
+            }
+        }
+        </style>
+
+        <section class="features">
+            <h2>✨ 核心功能</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>🎯 即选即用</h3>
+                    <p>选中文字后立即生成分享卡片，无需复杂操作。告别繁琐的截图和编辑过程，一键即可生成精美的分享卡片。</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📱 智能排版</h3>
+                    <p>完美支持长文本，自动调整布局和字号。无论是短句还是长段落，都能自动优化排版效果，确保视觉美感。</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🎨 多种主题（开发中）</h3>
+                    <p>提供多种精心设计的主题模板，满足不同场景的分享需求。包括经典简约、文艺清新、商务专业等多种风格。</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔗 原文溯源</h3>
+                    <p>自动生成原文二维码，方便读者访问原文。扫描二维码即可跳转到文章源地址，优雅解决内容溯源问题。</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>💾 便捷保存</h3>
+                    <p>支持一键保存图片或直接复制到剪贴板。可以选择下载高清图片，或直接复制到剪贴板以便发送给好友。</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📏 内容优化</h3>
+                    <p>智能调整文本长度，自动添加省略号，确保分享卡片始终保持美观。过长的内容会被智能截断，保持视觉效果。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <h2>🌟 使用场景</h2>
+            <div class="benefit-grid">
+                <div class="benefit-item">
+                    <h3>📚 读书笔记</h3>
+                    <p>记录精彩段落，整理阅读感悟，形成个人知识库。</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>💡 知识分享</h3>
+                    <p>分享文章见解，传播有价值的内容。</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>📝 内容创作</h3>
+                    <p>收集创作素材，整理写作灵感。</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>🎯 社交传播</h3>
+                    <p>在社交媒体分享观点，提升内容传播效果。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 添加安装使用部分 -->
+        <section class="usage-section">
+            <h2>🔧 安装使用（内测中）</h2>
+            <div class="usage-grid">
+                <div class="usage-item">
+                    <h3>🌐 Chrome插件</h3>
+                    <p>摘星卡片目前支持Chrome浏览器安装使用</p>
+                </div>
+                
+                <div class="usage-item">
+                    <h3>⬇️ 安装步骤</h3>
+                    <p>1. 打开Chrome浏览器的扩展程序页面</p>
+                    <p>2. 开启"开发者模式"</p>
+                    <p>3. 点击"加载已解压的扩展程序"</p>
+                    <p>4. 选择下载的插件文件夹即可完成安装</p>
+                </div>
+                
+                <div class="usage-item">
+                    <h3>✨ 开始使用</h3>
+                    <p>安装完成后，直接选中网页文字即可使用</p>
+                </div>
+                
+                <div class="usage-item">
+                    <h3>🔄 保持更新</h3>
+                    <p>建议定期检查更新以获取最新功能</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 修改底部联系信息 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>摘星卡片 © 2024</p>
+                </div>
+                <div class="contact">
+                    <p>联系开发者: laoy</p>
+                    <p>邮箱: <a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a></p>
+                </div>
+            </div>
+        </footer>
+    <script>
+
+        // 演示选中文字效果
+        document.querySelector('.demo-text').addEventListener('mouseup', function() {
+            const selection = window.getSelection();
+            if (selection.toString().trim().length > 0) {
+                // 创建提示按钮
+                const toast = document.createElement('div');
+                toast.style.cssText = `
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: var(--primary);
+                    color: white;
+                    padding: 1rem 2rem;
+                    border-radius: 0.5rem;
+                    z-index: 1000;
+                    animation: fadeIn 0.3s ease;
+                `;
+                toast.textContent = '👆 实际使用时会在这里显示"生成摘星卡片"按钮';
+                document.body.appendChild(toast);
+                
+                // 2秒后移除提示
+                setTimeout(() => {
+                    toast.style.animation = 'fadeOut 0.3s ease';
+                    setTimeout(() => toast.remove(), 300);
+                }, 2000);
+            }
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href'))?.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+/* 添加新的demo代码 */
+
+
+
+    </script>
+</body>
+</html>

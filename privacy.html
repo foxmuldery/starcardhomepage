@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>摘星卡片隐私政策</title>
+  <meta name="description" content="摘星卡片 Chrome 扩展的隐私政策，说明本扩展如何处理摘录内容、权限和本地数据。">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f3ec;
+      --paper: #fffdf7;
+      --text: #202020;
+      --muted: #69645c;
+      --line: #ded6c8;
+      --accent: #b35b35;
+      --accent-soft: #f0dfd3;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151412;
+        --paper: #1f1d1a;
+        --text: #f4efe7;
+        --muted: #b8afa2;
+        --line: #39342e;
+        --accent: #e09b70;
+        --accent-soft: #352820;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header {
+      padding: 36px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .updated {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    main {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      margin-top: 28px;
+      padding: clamp(24px, 4vw, 44px);
+    }
+
+    section + section {
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 1.3em;
+    }
+
+    li + li { margin-top: 8px; }
+
+    .summary {
+      background: var(--accent-soft);
+      border-left: 4px solid var(--accent);
+      padding: 16px 18px;
+      margin: 0 0 26px;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow">StarsCard Privacy Policy</p>
+      <h1>摘星卡片隐私政策</h1>
+      <p class="updated">生效日期：2026 年 5 月 8 日</p>
+    </header>
+
+    <main>
+      <div class="summary">
+        摘星卡片不会收集、出售或向开发者服务器上传你的摘录内容。扩展只在你的浏览器本地处理选中文本、页面信息、样式偏好和开关状态，用于生成并复制摘录卡片。
+      </div>
+
+      <section>
+        <h2>1. 我们处理哪些信息</h2>
+        <p>摘星卡片是一款用于把网页摘录生成卡片的 Chrome 扩展。为了完成这个功能，扩展可能在你的浏览器本地处理以下信息：</p>
+        <ul>
+          <li>你主动选中的网页文本。</li>
+          <li>当前网页的标题、域名或链接，用于生成摘录来源信息。</li>
+          <li>你选择的卡片版式、扩展开关状态等偏好设置。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. 信息如何使用</h2>
+        <p>这些信息仅用于在本地生成摘录卡片、复制内容到剪贴板、保存你的使用偏好，以及让扩展在当前页面正常工作。</p>
+        <p>摘星卡片不会把你的摘录内容发送到开发者服务器，也不会用于广告投放、用户画像、数据交易或与核心功能无关的用途。</p>
+      </section>
+
+      <section>
+        <h2>3. 数据存储与传输</h2>
+        <p>摘星卡片的偏好设置保存在 Chrome 提供的本地存储中。扩展不会主动建立开发者服务器连接来上传你的摘录、浏览记录或个人资料。</p>
+        <p>如果你通过邮件联系开发者，邮件内容会由你的邮件服务商处理，不属于扩展本身的自动数据收集行为。</p>
+      </section>
+
+      <section>
+        <h2>4. 权限说明</h2>
+        <p>为了实现摘录卡片功能，扩展会请求以下权限：</p>
+        <ul>
+          <li><strong>storage</strong>：保存扩展开关状态和卡片样式偏好。</li>
+          <li><strong>clipboardWrite</strong>：把生成的摘录卡片内容复制到剪贴板。</li>
+          <li><strong>tabs</strong>：读取当前标签页标题和链接，用于生成来源信息。</li>
+          <li><strong>scripting</strong>：在当前页面注入必要脚本和样式，确保扩展安装或更新后无需刷新页面也能工作。</li>
+          <li><strong>all_urls</strong>：让你可以在大多数网页上使用摘录卡片功能。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. 第三方共享</h2>
+        <p>摘星卡片不会出售、出租、转让或共享你的个人数据。扩展不包含第三方广告 SDK，也不会把摘录内容交给第三方分析服务。</p>
+      </section>
+
+      <section>
+        <h2>6. 儿童隐私</h2>
+        <p>摘星卡片不是面向儿童的产品。我们不会有意收集儿童个人信息。</p>
+      </section>
+
+      <section>
+        <h2>7. 政策更新</h2>
+        <p>如果未来扩展的数据处理方式发生实质变化，我们会更新本页面，并在必要时通过扩展说明或发布记录告知用户。</p>
+      </section>
+
+      <section>
+        <h2>8. 联系方式</h2>
+        <p>如果你对隐私政策、权限使用或数据处理方式有疑问，可以联系开发者：<a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 摘星卡片。此页面用于 Chrome Web Store 隐私政策公开访问。</p>
+    </footer>
+  </div>
+</body>
+</html>

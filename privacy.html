@@ -3,282 +3,452 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>摘星卡片隐私政策</title>
-    <meta name="description" content="摘星卡片 Chrome 扩展的隐私政策，说明本扩展如何处理摘录内容、权限和本地数据。">
+    <title>隐私政策 · 摘星卡片</title>
+    <meta name="description" content="摘星卡片 Chrome 扩展 v1.6 隐私政策：摘录、卡片和备份如何在本机处理，扩展申请哪些权限，以及你可以如何清空数据。">
+    <meta name="theme-color" content="#0b0e14">
+    <link rel="canonical" href="https://starcard.foxlaoy.com/privacy">
+    <link rel="icon" type="image/png" href="assets/icon48.png">
+    <link rel="apple-touch-icon" href="assets/icon128.png">
+    <link rel="stylesheet" href="assets/site.css">
     <style>
-        :root {
-            --primary: #5B67FF;
-            --primary-light: #F0F3FF;
-            --text: #2C3E50;
-            --muted: #666;
-            --bg: #ffffff;
-            --line: #e8ebff;
+        .privacy-page {
+            background: var(--paper);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        .privacy-main {
+            background:
+                radial-gradient(700px 420px at 90% 0%, rgba(242, 184, 75, .12), transparent 65%),
+                var(--paper);
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
-            color: var(--text);
-            line-height: 1.7;
-            background: var(--bg);
+        .privacy-hero {
+            padding: 88px 0 56px;
+            border-bottom: 1px solid var(--line);
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
+        .privacy-hero h1 {
+            max-width: 9em;
+            font-family: var(--serif);
+            font-size: clamp(2.9rem, 5.4vw, 4.5rem);
+            font-weight: 700;
+            line-height: 1.12;
+            letter-spacing: -.02em;
         }
 
-        .hero {
-            text-align: center;
-            padding: 4rem 2rem;
-            background: linear-gradient(135deg, var(--primary-light) 0%, #FFFFFF 100%);
-            border-radius: 1rem;
-            margin-bottom: 3rem;
-        }
-
-        .hero h1 {
-            font-size: 3.2rem;
-            margin-bottom: 1rem;
-            color: var(--primary);
-            animation: fadeInUp 0.8s ease;
-        }
-
-        .hero p {
-            font-size: 1.25rem;
+        .privacy-lead {
+            max-width: 39em;
+            margin-top: 24px;
             color: var(--muted);
-            margin-bottom: 0.5rem;
-            animation: fadeInUp 1s ease;
+            font-size: 1.02rem;
+            line-height: 1.9;
         }
 
-        .hero-desc {
-            max-width: 720px;
-            margin: 1rem auto 0;
-            font-size: 1.15rem;
-            color: var(--muted);
-            animation: fadeInUp 1.2s ease;
+        .privacy-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 24px;
+            margin-top: 30px;
+            color: var(--muted-2);
+            font-family: var(--mono);
+            font-size: .68rem;
+            letter-spacing: .03em;
         }
 
-        .policy-layout {
+        .privacy-layout {
             display: grid;
-            grid-template-columns: minmax(0, 1fr);
-            gap: 2rem;
-            margin: 3rem 0;
+            grid-template-columns: 210px minmax(0, 1fr);
+            align-items: start;
+            gap: 74px;
+            padding: 58px 0 104px;
         }
 
-        .summary-card,
+        .privacy-toc {
+            position: sticky;
+            top: 104px;
+            padding-top: 8px;
+        }
+
+        .privacy-toc p {
+            margin-bottom: 16px;
+            color: var(--muted-2);
+            font-family: var(--mono);
+            font-size: .62rem;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+        }
+
+        .privacy-toc a {
+            display: block;
+            padding: 5px 0;
+            color: var(--muted);
+            font-size: .82rem;
+            line-height: 1.55;
+            transition: color .2s ease;
+        }
+
+        .privacy-toc a:hover {
+            color: var(--gold-deep);
+        }
+
+        .policy {
+            max-width: 760px;
+        }
+
+        .policy-summary {
+            margin-bottom: 10px;
+            padding: 26px 28px;
+            border: 1px solid #e7cf9f;
+            border-radius: 14px;
+            background: linear-gradient(160deg, #fff9ec, #fdf3df);
+            box-shadow: 0 10px 30px rgba(120, 88, 24, .06);
+        }
+
+        .policy-summary strong {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--gold-deep);
+            font-family: var(--mono);
+            font-size: .64rem;
+            letter-spacing: .14em;
+        }
+
+        .policy-summary p {
+            color: #5b4a2a;
+            font-size: .96rem;
+            line-height: 1.9;
+        }
+
         .policy-section {
-            background: white;
-            border-radius: 1rem;
-            box-shadow: 0 4px 6px -1px rgba(91, 103, 255, 0.1);
+            padding: 34px 0;
+            border-bottom: 1px solid var(--line);
         }
 
-        .summary-card {
-            padding: 2rem;
-            background: var(--primary-light);
+        .policy-section:last-child {
+            border-bottom: 0;
         }
 
-        .summary-card h2,
         .policy-section h2 {
-            color: var(--primary);
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
+            display: flex;
+            align-items: baseline;
+            gap: 13px;
+            margin-bottom: 14px;
+            font-family: var(--serif);
+            font-size: 1.55rem;
+            font-weight: 700;
+            line-height: 1.35;
         }
 
-        .summary-card p,
+        .policy-section h2 span {
+            flex: none;
+            color: var(--gold-deep);
+            font-family: var(--mono);
+            font-size: .62rem;
+            font-weight: 500;
+            letter-spacing: .05em;
+        }
+
         .policy-section p,
         .policy-section li {
             color: var(--muted);
-            font-size: 1.05rem;
-        }
-
-        .policy-section {
-            padding: 2rem;
-            border: 1px solid var(--line);
-        }
-
-        .policy-section + .policy-section {
-            margin-top: 1.5rem;
+            font-size: .94rem;
+            line-height: 1.95;
         }
 
         .policy-section p + p {
-            margin-top: 0.75rem;
+            margin-top: 10px;
         }
 
         .policy-section ul {
-            padding-left: 1.3rem;
-            margin-top: 1rem;
+            display: grid;
+            gap: 8px;
+            margin-top: 12px;
+            padding-left: 0;
         }
 
-        .policy-section li + li {
-            margin-top: 0.75rem;
+        .policy-section li {
+            position: relative;
+            padding-left: 18px;
         }
 
-        strong {
+        .policy-section li::before {
+            content: "";
+            position: absolute;
+            top: .82em;
+            left: 0;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--gold);
+        }
+
+        .policy-section strong {
             color: var(--text);
+            font-weight: 650;
         }
 
-        a {
-            color: var(--primary);
-            text-decoration: none;
-            transition: color 0.3s ease;
+        .policy-section code {
+            padding: 1px 5px;
+            border-radius: 3px;
+            background: rgba(18, 21, 28, .06);
+            color: #3d424c;
+            font-family: var(--mono);
+            font-size: .84em;
         }
 
-        a:hover {
-            color: var(--text);
+        .policy-section a {
+            color: var(--gold-deep);
             text-decoration: underline;
+            text-underline-offset: .18em;
+            text-decoration-color: rgba(169, 119, 18, .35);
         }
 
-        .footer {
-            margin-top: 4rem;
-            padding: 2rem 0;
-            background: var(--primary-light);
+        .policy-section a:hover {
+            text-decoration-color: currentColor;
         }
 
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1rem;
-            text-align: center;
+        .policy-back {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 30px;
+            padding-top: 24px;
+            border-top: 1px solid var(--line);
         }
 
-        .footer-links {
-            margin: 1rem 0;
+        .policy-back span {
+            color: var(--muted-2);
+            font-family: var(--mono);
+            font-size: .64rem;
         }
 
-        .footer-links a {
-            color: var(--primary);
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-
-        .contact {
-            margin-top: 1rem;
-            color: var(--muted);
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
+        @media (max-width: 1000px) {
+            .privacy-layout {
+                grid-template-columns: minmax(0, 1fr);
+                gap: 30px;
+                padding-top: 44px;
             }
-            to {
-                opacity: 1;
-                transform: translateY(0);
+
+            .privacy-toc {
+                position: static;
+                display: none;
             }
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 1rem;
+        @media (max-width: 620px) {
+            .privacy-hero {
+                padding: 62px 0 42px;
             }
 
-            .hero {
-                padding: 3rem 1.5rem;
+            .privacy-hero h1 {
+                font-size: clamp(2.45rem, 11vw, 3.3rem);
             }
 
-            .hero h1 {
-                font-size: 2.4rem;
+            .privacy-lead {
+                font-size: .95rem;
             }
 
-            .hero p {
-                font-size: 1.1rem;
+            .privacy-meta {
+                gap: 7px 16px;
+                font-size: .62rem;
             }
 
-            .summary-card,
+            .privacy-layout {
+                padding: 36px 0 72px;
+            }
+
+            .policy-summary {
+                padding: 20px;
+            }
+
             .policy-section {
-                padding: 1.4rem;
+                padding: 28px 0;
+            }
+
+            .policy-section h2 {
+                font-size: 1.35rem;
+            }
+
+            .policy-section p,
+            .policy-section li {
+                font-size: .9rem;
+            }
+
+            .policy-back {
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <section class="hero">
-            <h1>摘星卡片隐私政策</h1>
-            <p>生效日期：2026 年 5 月 8 日</p>
-            <div class="hero-desc">
-                摘星卡片不会收集、出售或向开发者服务器上传你的摘录内容。扩展只在你的浏览器本地处理必要信息，用于生成并复制摘录卡片。
+<body class="privacy-page">
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header is-solid">
+        <div class="container header-inner">
+            <a class="brand" href="./" aria-label="返回摘星卡片首页">
+                <img src="assets/icon48.png" alt="" width="34" height="34">
+                <span class="brand__name">摘星卡片</span>
+                <span class="brand__version">v1.6</span>
+            </a>
+            <nav class="nav" aria-label="主导航">
+                <a href="./">首页</a>
+                <a href="./#layouts">八种版式</a>
+                <a href="./#changelog">更新日志</a>
+            </nav>
+            <div class="header-actions">
+                <a class="btn btn--small btn--gold" href="https://chromewebstore.google.com/detail/%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87/begimcgdknolpegbnajppnilboonmfgf" target="_blank" rel="noopener">添加到 Chrome</a>
             </div>
-        </section>
+        </div>
+    </header>
 
-        <main class="policy-layout">
-            <section class="summary-card">
-                <h2>隐私原则</h2>
-                <p>摘星卡片的核心功能在本地完成。你的摘录内容、页面信息、样式偏好和开关状态只用于生成卡片、复制内容和保持扩展正常工作。</p>
-            </section>
+    <main class="privacy-main" id="main">
+        <div class="container">
+            <header class="privacy-hero">
+                <p class="kicker">隐私 · Privacy</p>
+                <h1>你的摘录，<br>只属于你。</h1>
+                <p class="privacy-lead">摘星卡片在浏览器本地完成卡片生成、保存与备份。这份说明对应 v1.6，讲清楚扩展会处理哪些信息、申请哪些权限，以及你如何把它们清空。</p>
+                <div class="privacy-meta">
+                    <span>生效日期 2026.10.22</span>
+                    <span>对应版本 v1.6 / 1.60.0</span>
+                    <span>最后更新 2026.10.22</span>
+                </div>
+            </header>
 
-            <section class="policy-section">
-                <h2>1. 我们处理哪些信息</h2>
-                <p>摘星卡片是一款用于把网页摘录生成卡片的 Chrome 扩展。为了完成这个功能，扩展可能在你的浏览器本地处理以下信息：</p>
-                <ul>
-                    <li>你主动选中的网页文本。</li>
-                    <li>当前网页的标题、域名或链接，用于生成摘录来源信息。</li>
-                    <li>你选择的卡片版式、扩展开关状态等偏好设置。</li>
-                </ul>
-            </section>
+            <div class="privacy-layout">
+                <aside class="privacy-toc" aria-label="本页目录">
+                    <p>本页目录</p>
+                    <a href="#summary">一句话版本</a>
+                    <a href="#data">1. 处理哪些信息</a>
+                    <a href="#use">2. 信息如何使用</a>
+                    <a href="#storage">3. 存储与传输</a>
+                    <a href="#permissions">4. 权限说明</a>
+                    <a href="#library">5. 卡片库与备份</a>
+                    <a href="#sharing">6. 第三方共享</a>
+                    <a href="#children">7. 儿童隐私</a>
+                    <a href="#changes">8. 政策更新</a>
+                    <a href="#contact">9. 联系方式</a>
+                </aside>
 
-            <section class="policy-section">
-                <h2>2. 信息如何使用</h2>
-                <p>这些信息仅用于在本地生成摘录卡片、复制内容到剪贴板、保存你的使用偏好，以及让扩展在当前页面正常工作。</p>
-                <p>摘星卡片不会把你的摘录内容发送到开发者服务器，也不会用于广告投放、用户画像、数据交易或与核心功能无关的用途。</p>
-            </section>
+                <article class="policy">
+                    <section class="policy-summary" id="summary">
+                        <strong>一句话版本</strong>
+                        <p>摘录内容、页面信息和生成的卡片都在你的浏览器里处理。开发者没有接收这些内容的服务器；扩展不包含广告或分析 SDK，也没有账号系统。</p>
+                    </section>
 
-            <section class="policy-section">
-                <h2>3. 数据存储与传输</h2>
-                <p>摘星卡片的偏好设置保存在 Chrome 提供的本地存储中。扩展不会主动建立开发者服务器连接来上传你的摘录、浏览记录或个人资料。</p>
-                <p>如果你通过邮件联系开发者，邮件内容会由你的邮件服务商处理，不属于扩展本身的自动数据收集行为。</p>
-            </section>
+                    <section class="policy-section" id="data">
+                        <h2><span>01</span>我们处理哪些信息</h2>
+                        <p>摘星卡片是一款把网页摘录生成分享卡片的 Chrome 扩展。为了完成这个功能，扩展会在你的浏览器本地处理以下信息：</p>
+                        <ul>
+                            <li>你主动选中的网页文本。</li>
+                            <li>当前网页的标题、域名或链接，用于生成来源信息和原文二维码。</li>
+                            <li>你选择的卡片版式、扩展开关、自动保存开关等偏好设置。</li>
+                            <li>你在本地卡片库中保存的卡片文字、图片、批注和标签。</li>
+                            <li>你主动导出或导入的备份文件。备份文件由你选择保存位置。</li>
+                        </ul>
+                    </section>
 
-            <section class="policy-section">
-                <h2>4. 权限说明</h2>
-                <p>为了实现摘录卡片功能，扩展会请求以下权限：</p>
-                <ul>
-                    <li><strong>storage</strong>：保存扩展开关状态和卡片样式偏好。</li>
-                    <li><strong>clipboardWrite</strong>：把生成的摘录卡片内容复制到剪贴板。</li>
-                    <li><strong>tabs</strong>：读取当前标签页标题和链接，用于生成来源信息。</li>
-                    <li><strong>scripting</strong>：在当前页面注入必要脚本和样式，确保扩展安装或更新后无需刷新页面也能工作。</li>
-                    <li><strong>all_urls</strong>：让你可以在大多数网页上使用摘录卡片功能。</li>
-                </ul>
-            </section>
+                    <section class="policy-section" id="use">
+                        <h2><span>02</span>信息如何使用</h2>
+                        <p>这些信息只用于：在本地生成摘录卡片、把卡片图片或文字复制到剪贴板、下载 PNG、保存你的偏好，以及让扩展在当前页面正常工作。</p>
+                        <p>摘星卡片不会把你的摘录内容发送到开发者服务器，也不会用于广告投放、用户画像、数据交易或与核心功能无关的用途。</p>
+                    </section>
 
-            <section class="policy-section">
-                <h2>5. 第三方共享</h2>
-                <p>摘星卡片不会出售、出租、转让或共享你的个人数据。扩展不包含第三方广告 SDK，也不会把摘录内容交给第三方分析服务。</p>
-            </section>
+                    <section class="policy-section" id="storage">
+                        <h2><span>03</span>数据存储与传输</h2>
+                        <p>偏好设置保存在 Chrome 提供的本地存储中。卡片与图片保存在浏览器本地的 IndexedDB 数据库 <code>starscard-library</code> 中，不会自动同步到其他设备。</p>
+                        <p>v1.6 不包含云端同步、账号登录或远程代码。扩展不会主动建立开发者服务器连接来上传你的摘录、浏览记录或个人资料。</p>
+                        <p>如果你通过邮件联系开发者，邮件内容会由你的邮件服务商处理，这不属于扩展本身的自动数据收集行为。</p>
+                    </section>
 
-            <section class="policy-section">
-                <h2>6. 儿童隐私</h2>
-                <p>摘星卡片不是面向儿童的产品。我们不会有意收集儿童个人信息。</p>
-            </section>
+                    <section class="policy-section" id="permissions">
+                        <h2><span>04</span>权限说明</h2>
+                        <p>v1.6 的 <code>manifest.json</code> 只申请以下权限：</p>
+                        <ul>
+                            <li><strong>storage</strong>：保存扩展开关、版式选择和自动保存偏好。</li>
+                            <li><strong>clipboardWrite</strong>：把生成的卡片图片或摘录文字复制到剪贴板。</li>
+                            <li><strong>scripting</strong>：在当前页面注入必要的界面与脚本，确保安装或更新后无需刷新页面也能工作。</li>
+                            <li><strong>主机权限 <code>http://*/*</code> 与 <code>https://*/*</code></strong>：让你可以在普通网页上划词生成卡片。扩展不会读取你的浏览历史，也不会在其他页面后台运行。</li>
+                        </ul>
+                        <p>扩展不申请 <code>tabs</code>、<code>downloads</code> 或 <code>&lt;all_urls&gt;</code> 权限。下载图片通过浏览器本地生成的临时链接完成，不读取你的下载记录。</p>
+                    </section>
 
-            <section class="policy-section">
-                <h2>7. 政策更新</h2>
-                <p>如果未来扩展的数据处理方式发生实质变化，我们会更新本页面，并在必要时通过扩展说明或发布记录告知用户。</p>
-            </section>
+                    <section class="policy-section" id="library">
+                        <h2><span>05</span>本地卡片库与备份</h2>
+                        <p>自动保存开启时，生成的卡片会写入本机 IndexedDB。你可以在扩展弹窗中关闭自动保存，也可以在卡片库中删除单张卡片或清空全部卡片。</p>
+                        <p>导出备份时，扩展会把卡片元数据与图片打包为 ZIP 文件，保存到你选择的位置。导入时会逐张校验图片和字段，并对重复卡片去重；导入过程不会把文件上传到网络。</p>
+                        <p>清除浏览器站点数据、卸载扩展或使用不同的浏览器用户配置，可能导致本地卡片库不可用。建议在更新或迁移前先导出备份。</p>
+                    </section>
 
-            <section class="policy-section">
-                <h2>8. 联系方式</h2>
-                <p>如果你对隐私政策、权限使用或数据处理方式有疑问，可以联系开发者：<a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a></p>
-            </section>
-        </main>
-    </div>
+                    <section class="policy-section" id="sharing">
+                        <h2><span>06</span>第三方共享</h2>
+                        <p>摘星卡片不会出售、出租、转让或共享你的个人数据。扩展不包含第三方广告 SDK，也不会把摘录内容交给第三方分析服务。</p>
+                        <p>扩展通过 Chrome Web Store 分发；你与 Chrome Web Store 之间的交互受 Google 的隐私政策约束。点击卡片上的原文二维码或链接时，你访问的是原网页，适用该网站自己的隐私政策。</p>
+                    </section>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <p>摘星卡片 © 2026</p>
-            <div class="footer-links">
-                <a href="./index.html">返回首页</a>
-                <a href="./privacy.html">隐私政策</a>
+                    <section class="policy-section" id="children">
+                        <h2><span>07</span>儿童隐私</h2>
+                        <p>摘星卡片不是面向儿童的产品。我们不会有意收集儿童个人信息；扩展本身也不收集可识别个人身份的信息。</p>
+                    </section>
+
+                    <section class="policy-section" id="changes">
+                        <h2><span>08</span>政策更新</h2>
+                        <p>如果未来扩展的数据处理方式发生实质变化，例如加入云端同步或新的网络请求，我们会更新本页面，并在必要时通过扩展说明或发布记录告知用户。</p>
+                        <p>当前页面对应 v1.6（内部版本 1.60.0）。历史版本的隐私说明可在 GitHub 仓库的提交记录中查看。</p>
+                    </section>
+
+                    <section class="policy-section" id="contact">
+                        <h2><span>09</span>联系方式</h2>
+                        <p>如果你对隐私政策、权限使用或数据处理方式有疑问，可以联系开发者老y：<a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a>。</p>
+                        <div class="policy-back">
+                            <a class="text-link" href="./">返回首页 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            <span>摘星卡片 · v1.6 · 2026</span>
+                        </div>
+                    </section>
+                </article>
             </div>
-            <div class="contact">
-                <p>联系开发者：<a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a></p>
+        </div>
+    </main>
+
+    <svg class="svg-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></symbol>
+    </svg>
+
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div class="footer-brand">
+                <a class="brand brand--footer" href="./">
+                    <img src="assets/icon48.png" alt="" width="38" height="38">
+                    <span class="brand__name">摘星卡片</span>
+                </a>
+                <p>把值得记住的句子，摘下来。</p>
+                <span class="footer-version">Chrome 扩展 · v1.6 · 2026</span>
             </div>
+            <div class="footer-cols">
+                <div>
+                    <h4>产品</h4>
+                    <a href="./#layouts">八种版式</a>
+                    <a href="./#features">功能细节</a>
+                    <a href="./#library">本地卡片库</a>
+                    <a href="./#changelog">更新日志</a>
+                </div>
+                <div>
+                    <h4>资源</h4>
+                    <a href="https://chromewebstore.google.com/detail/%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87/begimcgdknolpegbnajppnilboonmfgf" target="_blank" rel="noopener">Chrome Web Store</a>
+                    <a href="https://github.com/foxmuldery/starscard" target="_blank" rel="noopener">GitHub 源码</a>
+                    <a href="./privacy.html">隐私政策</a>
+                </div>
+                <div>
+                    <h4>联系</h4>
+                    <a href="mailto:yuanzhe2023@hotmail.com">yuanzhe2023@hotmail.com</a>
+                    <a href="mailto:yuanzhe2023@hotmail.com?subject=%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88">问题反馈</a>
+                    <span>开发者：老y</span>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 摘星卡片 · 由老y 独立开发</p>
+            <p>本页不使用跟踪脚本 · 数据只留在你的浏览器</p>
         </div>
     </footer>
 </body>

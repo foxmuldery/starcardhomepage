@@ -368,7 +368,7 @@
                             <li><strong>storage</strong>：保存扩展开关、版式选择和自动保存偏好。</li>
                             <li><strong>clipboardWrite</strong>：把生成的卡片图片或摘录文字复制到剪贴板。</li>
                             <li><strong>scripting</strong>：在当前页面注入必要的界面与脚本，确保安装或更新后无需刷新页面也能工作。</li>
-                            <li><strong>主机权限 <code>http://*/*</code> 与 <code>https://*/*</code></strong>：让你可以在普通网页上划词生成卡片。扩展不会读取你的浏览历史，也不会在其他页面后台运行。</li>
+                            <li><strong>主机权限 <code>http://*/*</code> 与 <code>https://*/*</code></strong>：让你可以在普通网页上划词生成卡片。扩展会在普通网页注入划词脚本，但只在你主动选中文字后读取选区内容，也不会读取浏览历史。</li>
                         </ul>
                         <p>扩展不申请 <code>tabs</code>、<code>downloads</code> 或 <code>&lt;all_urls&gt;</code> 权限。下载图片通过浏览器本地生成的临时链接完成，不读取你的下载记录。</p>
                     </section>

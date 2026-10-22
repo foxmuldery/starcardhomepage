@@ -3080,6 +3080,18 @@ section[id] {
         gap: 30px;
     }
 
+    .hero__trust {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .trust-item--wide {
+        grid-column: span 2;
+    }
+
+    .ghost-card--signal {
+        display: none;
+    }
+
     .hero__stage {
         height: 570px;
     }

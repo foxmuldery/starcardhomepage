@@ -1,10 +1,10 @@
 {
-  "version": "1.8.4",
+  "version": "1.8.3",
   "buildNumber": 4057,
   "channel": "internal",
   "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.3-4057/app-release.apk",
   "sha256": "322778a49adb866218923ff732e9c9cf08d065e259b56b551ec2c674fcd3948d",
-  "publishedAt": "2026-11-17T01:12:36+08:00",
+  "publishedAt": "2026-11-16T22:27:38+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【模拟打字机主界面版 v1.8.4 (4057)】\n1. 全App默认唯一主视觉定为 OLIVETTI·NAGRA 复古机械打字机拟物；\n2. 顶部切换条移除并收进设置；\n3. 内置机主内部源与内测源双通道OTA。"
+  "releaseNotes": "【模拟打字机主界面版 v1.8.3 (4057)】\n1. 全App默认唯一主视觉定为 OLIVETTI·NAGRA 复古机械打字机拟物；\n2. 顶部切换条移除并收进设置；\n3. 内置机主内部源与内测源双通道OTA。"
 }

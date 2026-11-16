@@ -1,9 +1,10 @@
 {
   "version": "1.8.3",
-  "buildNumber": 4055,
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/latest/download/app-release.apk",
-  "sha256": "44a08f011fbef7660b054caf3326a8127a53be4df97df4dc6e1b8c2e933cc9d2",
-  "publishedAt": "2026-11-16T21:46:00+08:00",
+  "buildNumber": 4056,
+  "channel": "internal",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.3-4056/app-release.apk",
+  "sha256": "12089646a9723f1e875ad7b19801242aa8823bd8c3223208f2094e4fa2d61fe4",
+  "publishedAt": "2026-11-16T22:06:59+08:00",
   "forceUpdate": false,
-  "releaseNotes": "1. 全新实装三套完整交互与视觉架构，顶部一键秒切：\n   · 方案一《长卷》：时间轴长卷 + 左页边竖排批注拆词 + 月份竖排书脊书架与4色明信片\n   · 方案二《单卡叠牌流》：3层Z轴景深分拣台 + 原位闪卡画板与5枚实体快门钮 + 横向拍立得画廊\n   · 方案三《真·物理空间拟物风》：6孔活页真皮手账本 + 博朗/Nagra开盘磁带采访机与打字机立体键帽纸带 + 胡桃木阶梯抽屉盒\n2. 100%完成全库深度代码审计（22bd78c）全部17项加固修复\n3. 精简更多设置页，移除冗余入口"
+  "releaseNotes": "【🔧 机主内部自测源 v1.8.3 (4056)】\n机主专属远程更新包（内测用户 version.json 未受影响，自测通过后可执行 ./tool/ota_release.sh promote 推送给内测用户）。"
 }

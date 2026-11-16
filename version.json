@@ -1,0 +1,9 @@
+{
+  "version": "1.8.2",
+  "buildNumber": 4052,
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/latest/download/app-release.apk",
+  "sha256": "22c5a3b73e9d116189b7111d26305a412242011297dde1470ff94a6dd5ed5d0c",
+  "publishedAt": "2026-11-16T14:25:00+08:00",
+  "forceUpdate": false,
+  "releaseNotes": "1. 每次启动自动检索新版本并弹窗提醒一键在线升级\n2. 零妥协代码审计全量加固（锁屏后侧键面板重挂载、预录交接防丢音、摘星卡片6款语气持久化）\n3. 闪记/卡片盒双视图、原文自动大爆炸精修工作台与双层标签视觉升级"
+}

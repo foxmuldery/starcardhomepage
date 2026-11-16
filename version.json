@@ -1,9 +1,9 @@
 {
-  "version": "1.8.2",
-  "buildNumber": 4053,
+  "version": "1.8.3",
+  "buildNumber": 4055,
   "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/latest/download/app-release.apk",
-  "sha256": "a606312009244845c62bedebf7e3a4e7c5885eaebba80c577d5184e81a3fc79d",
-  "publishedAt": "2026-11-16T14:31:00+08:00",
+  "sha256": "44a08f011fbef7660b054caf3326a8127a53be4df97df4dc6e1b8c2e933cc9d2",
+  "publishedAt": "2026-11-16T21:46:00+08:00",
   "forceUpdate": false,
-  "releaseNotes": "1. 每次启动自动检索新版本并弹窗提醒一键在线升级\n2. 零妥协代码审计全量加固（锁屏后侧键面板重挂载、预录交接防丢音、摘星卡片6款语气持久化）\n3. 闪记/卡片盒双视图、原文自动大爆炸精修工作台与双层标签视觉升级"
+  "releaseNotes": "1. 全新实装三套完整交互与视觉架构，顶部一键秒切：\n   · 方案一《长卷》：时间轴长卷 + 左页边竖排批注拆词 + 月份竖排书脊书架与4色明信片\n   · 方案二《单卡叠牌流》：3层Z轴景深分拣台 + 原位闪卡画板与5枚实体快门钮 + 横向拍立得画廊\n   · 方案三《真·物理空间拟物风》：6孔活页真皮手账本 + 博朗/Nagra开盘磁带采访机与打字机立体键帽纸带 + 胡桃木阶梯抽屉盒\n2. 100%完成全库深度代码审计（22bd78c）全部17项加固修复\n3. 精简更多设置页，移除冗余入口"
 }

@@ -3,8 +3,8 @@
   "buildNumber": 4058,
   "channel": "internal",
   "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4058/app-release.apk",
-  "sha256": "0f783298faab7814d8ce8beb3efc774b02896cd18339db1bdb059d6f98d210e0",
-  "publishedAt": "2026-11-17T07:11:00+08:00",
+  "sha256": "c2d57465bf87b5cef5a646e3682acdbce1e1118c12eaa0c628508dec3a9e7008",
+  "publishedAt": "2026-11-17T07:13:07+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🔧 机主极速增量自测包 v1.8.4 (4058) · 仅 129MB】\n1. 模型与代码分离：直接复用本机已缓存的离线语音模型，OTA 包体积从 313MB 缩减至 129MB，秒级下载安装\n2. 修复同构建号重复弹出升级提示的问题（严格以 buildNumber 为唯一判定标准并记录已弹窗构建号）"
+  "releaseNotes": "【🔧 机主极速增量自测包 v1.8.4 (4058) · 仅 61MB】\n1. 模型与代码分离：直接复用本机已缓存的离线语音模型，OTA 包体积从 313MB 缩减至 61MB，秒级下载安装\n2. 修复同构建号重复弹出升级提示的问题（严格以 buildNumber 为唯一判定标准并记录已弹窗构建号）"
 }

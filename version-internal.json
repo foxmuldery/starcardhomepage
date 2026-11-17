@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4061,
+  "buildNumber": 4062,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4061/app-release.apk",
-  "sha256": "bfe8da6ee5ea4ffeaa889aff3e0b21c6497e34296b0acf718f1717b5b8ee6908",
-  "publishedAt": "2026-11-17T08:49:50+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4062/app-release.apk",
+  "sha256": "d45df908a49b509bfbbb7196cee47775c200659b3e3b4bf9146cdd4655a93695",
+  "publishedAt": "2026-11-17T19:19:18+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【📜 摘星闪记 v1.8.4 (4061) · 恢复《长卷 LONG SCROLL》独立版 · 61MB】\n1. 全量恢复为《长卷 LONG SCROLL》独立版方案（纸墨时间轴长卷首页 + 86px 左页边批注拆词精修页 + 月份书脊书架与明信片卡片盒 + 宣纸拾音浮层）\n2. 极速增量瘦身包（直接复用本机离线语音模型，安装包仅 61MB，秒级下载安装）\n3. 修复同构建号重复弹出升级提示的问题"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4062) · 侧键全场景唤醒修复 + 双击/长按侧键呼出清单与对调 + 博朗卡片盒返回修复 · 61MB】\n1. 彻底修复在 Telegram 等前台界面按电源键未弹出录音面板的问题（修复跨 Session 视图挂载冲突并新增 450ms Watchdog 自动平滑兜底）\n2. 新增「双击电源键呼出待办清单」及「长按 ⇄ 双击电源键功能自定义对调」（支持悬浮层直接打勾 ☐➔☑ 完成待办或一键转语音新待办）\n3. 修复博朗机械拟物模式《卡片盒 04》无法退回《01 滚轮转鼓捕捉仓》的问题（新增「‹ 返回转鼓」机械按键、首槽点击收回、上推回槽及左滑返回手势）"
 }

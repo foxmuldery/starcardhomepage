@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4060,
+  "buildNumber": 4061,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4060/app-release.apk",
-  "sha256": "37b81dd0772005e53c0af748c50377c470ac8d11b4359e4f85ff9e9fa9812f2b",
-  "publishedAt": "2026-11-17T08:16:42+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4061/app-release.apk",
+  "sha256": "bfe8da6ee5ea4ffeaa889aff3e0b21c6497e34296b0acf718f1717b5b8ee6908",
+  "publishedAt": "2026-11-17T08:49:50+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🔧 机主内部自测包 v1.8.4 (4060) · 仅 61MB】\n1. 1:1 像素级复刻《博朗机械滚轮与胶辊走纸机》视觉参考样稿 (photo_89.jpg) 四大屏幕的立体光影与精密构件\n2. 01 滚轮转鼓捕捉仓：厚重拉丝银灰铝框 + 3D 圆柱卷筒纸与梯形彩耳 + 深竖槽 3D 不锈钢螺旋弹簧 + 3D 博朗橙滚花进纸筒\n3. 02 键帽拆词与走纸台：5×4 四面梯形斜切球面键帽矩阵（暖橙微孔导光 LED）+ 两侧伸出金属旋耳的 3D 黑胶辊 + 金属回形针斜挂西湖拍立得 + 5 枚双环内凹金属圆键 + 跑道形橙色大回车杆\n4. 03 立式卡槽与吐片闪卡 & 04 惯性飞轮拾音舱：顶部 4 道深黑铝槽与梯形彩耳 + 360° 锥面拉丝金属旋钮/飞轮 + 发光霓虹红指针 + 3D 船型摇杆开关"
+  "releaseNotes": "【📜 摘星闪记 v1.8.4 (4061) · 恢复《长卷 LONG SCROLL》独立版 · 61MB】\n1. 全量恢复为《长卷 LONG SCROLL》独立版方案（纸墨时间轴长卷首页 + 86px 左页边批注拆词精修页 + 月份书脊书架与明信片卡片盒 + 宣纸拾音浮层）\n2. 极速增量瘦身包（直接复用本机离线语音模型，安装包仅 61MB，秒级下载安装）\n3. 修复同构建号重复弹出升级提示的问题"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "1.8.3",
-  "buildNumber": 4057,
+  "version": "1.8.4",
+  "buildNumber": 4061,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.3-4057/app-release.apk",
-  "sha256": "322778a49adb866218923ff732e9c9cf08d065e259b56b551ec2c674fcd3948d",
-  "publishedAt": "2026-11-16T22:27:38+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4061/app-release.apk",
+  "sha256": "bfe8da6ee5ea4ffeaa889aff3e0b21c6497e34296b0acf718f1717b5b8ee6908",
+  "publishedAt": "2026-11-17T08:49:50+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【模拟打字机主界面版 v1.8.3 (4057)】\n1. 全App默认唯一主视觉定为 OLIVETTI·NAGRA 复古机械打字机拟物；\n2. 顶部切换条移除并收进设置；\n3. 内置机主内部源与内测源双通道OTA。"
+  "releaseNotes": "【📜 摘星闪记 v1.8.4 (4061) · 恢复《长卷 LONG SCROLL》独立版 · 61MB】\n1. 全量恢复为《长卷 LONG SCROLL》独立版方案（纸墨时间轴长卷首页 + 86px 左页边批注拆词精修页 + 月份书脊书架与明信片卡片盒 + 宣纸拾音浮层）\n2. 极速增量瘦身包（直接复用本机离线语音模型，安装包仅 61MB，秒级下载安装）\n3. 修复同构建号重复弹出升级提示的问题"
 }

@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4063,
+  "buildNumber": 4064,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4063/app-release.apk",
-  "sha256": "2d258c5c79579f4346629df2d68eccea2b6da83f2a2354883efb093fa0fd7dba",
-  "publishedAt": "2026-11-18T09:21:52+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4064/app-release.apk",
+  "sha256": "3ddfe9c81a1b085fca8399b902ae847395b871de93adf9ed8d6bd1f4a520be8a",
+  "publishedAt": "2026-11-18T09:53:54+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4063) · 博朗 Blender 3D 微砂铝混合渲染 + 双击/长按侧键呼出清单 + 全场景唤醒修复 · 65MB】\n1. 接入 Blender Cycles 真实无缝微砂铝底纹 (texture_00_aluminium_seamless) 与 3D 菱形滚花进纸推筒等物理切片 + Flutter 实时各向异性高光混合渲染\n2. 彻底修复在 Telegram 等前台界面按电源键未弹出录音面板的问题（修复跨 Session 视图挂载冲突并新增 450ms Watchdog 自动平滑兜底）\n3. 新增「双击电源键呼出待办清单」及「长按 ⇄ 双击电源键功能自定义对调」（支持悬浮层直接打勾 ☐➔☑ 完成待办或一键转语音新待办）\n4. 修复博朗拟物模式《卡片盒 04》无法退回转鼓首页的问题（新增「‹ 返回转鼓」机械按键、首槽收回、上推回槽及左滑返回手势）"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4064) · 04 拾音舱上吐纸下飞轮专项修订 + Variant B 高精度部件与原创 VI 标志融合 · 63MB】\n1. 04 拾音舱专项修订（上吐纸、下置飞轮布局）：顶部锯齿朝上热敏纸带从下方切口向上伸展，流式文字尾随块状游标 ▍ 自动平滑对齐底部出纸口，中腰胶辊切口与状态带，下置实心车纹炭黑飞轮 (rotor_flywheel_disc_v2) 与 16 段立式 VU 电平柱，底部三枚船型摇杆与双物理按键\n2. 融合 Variant B 高质感拟物切片与原创 VI 标志：实心车纹滤色大旋钮 (rotor_tone_dial_knob_v2)、纯棉纸纤维平铺纹 (paper_fiber)、暖橙导光孔机械键帽、同心车纹圆琴键、菱形滚花回车压杆及四段折带星点原创标志\n3. 含 4062/4063 全部修复：Telegram 界面按电源键唤醒修复 + 双击/长按电源键呼出待办清单与功能对调 + 卡片盒返回转鼓导航修复"
 }

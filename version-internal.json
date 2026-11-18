@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4068,
+  "buildNumber": 4069,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4068/app-release.apk",
-  "sha256": "b696c4fa92981b29d0a5582c813572f5f2cbb01a28776ffa9e0416e790584a30",
-  "publishedAt": "2026-11-18T12:51:08+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4069/app-release.apk",
+  "sha256": "c1df51f9831191244589602b058b14b4757cf8bb6f087649d276893870d7ace3",
+  "publishedAt": "2026-11-18T13:28:32+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4068) · 博朗机械拟物「声·光·触·动」四感联动引擎 (BraunTactileEngine) + Fold 8 外屏全比例自适应 · 44MB】\n1. 🔊 机械声学合成引擎 (BraunTactileNative)：原生 SoundPool 44.1kHz 16-bit 物理建模 14 种机械声效（双段静电容键帽 Thock-Down / Clack-Up、棘轮拨齿、螺旋弹簧拉伸与回弹、齿轮电机走纸、钢珠跳档、船型摇杆拍击与锯齿撕纸声），支持 ±4% 随机音高微扰与设置页开关\n2. ✨ 动态光影位移（动必伴光变）：03 滤色旋钮与 04 旋转飞轮实现「盘转而高光留」（底层车纹旋转、顶光 X 形蝴蝶高光瓣相对光源静止微闪）；02 球面键帽按下时 3D 裙边真实压缩 + 右上角 LED 次表面散射漫射柔光晕\n3. 弹簧与棘轮物理 + 📳 多阶线性马达编排：01 红色退片弹簧实装渐硬胡克定律阻尼与回弹余震；02 橙色大压杆实装「触底重击 + 3连齿轮走纸 Tick + 吐卡入槽」5 段组合震动；全面适配 Fold 8 外屏与内屏"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4069) · 博朗机械拟物「声·光·触·动」四感联动引擎 (BraunTactileEngine) + Fold 8 外屏全比例自适应 · 44MB】\n1. 🔊 机械声学合成引擎 (BraunTactileNative)：原生 SoundPool 44.1kHz 16-bit 物理建模 14 种机械声效（双段静电容键帽 Thock-Down / Clack-Up、棘轮拨齿、螺旋弹簧拉伸与回弹、齿轮电机走纸、钢珠跳档、船型摇杆拍击与锯齿撕纸声），支持 ±4% 随机音高微扰与设置页开关\n2. ✨ 动态光影位移（动必伴光变）：03 滤色旋钮与 04 旋转飞轮实现「盘转而高光留」（底层车纹旋转、顶光 X 形蝴蝶高光瓣相对光源静止微闪）；02 球面键帽按下时 3D 裙边真实压缩 + 右上角 LED 次表面散射漫射柔光晕\n3. 弹簧与棘轮物理 + 📳 多阶线性马达编排：01 红色退片弹簧实装渐硬胡克定律阻尼与回弹余震；02 橙色大压杆实装「触底重击 + 3连齿轮走纸 Tick + 吐卡入槽」5 段组合震动；全面适配 Fold 8 外屏与内屏"
 }

@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4071,
+  "buildNumber": 4072,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4071/app-release.apk",
-  "sha256": "da5c3ece61808860edecad4891ce8d379025f3eca314f5f6bf224d8349e9dce2",
-  "publishedAt": "2026-11-18T15:12:36+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4072/app-release.apk",
+  "sha256": "a940e7c241c7b241c3a3ec2ecd880fff1a5eb69370be0c123c79d0fbedf757ba",
+  "publishedAt": "2026-11-18T18:18:56+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4071) · 博朗机械拟物「声·光·触·动」四感联动引擎 (BraunTactileEngine) + Fold 8 外屏全比例自适应 · 44MB】\n1. 🔊 机械声学合成引擎 (BraunTactileNative)：原生 SoundPool 44.1kHz 16-bit 物理建模 14 种机械声效（双段静电容键帽 Thock-Down / Clack-Up、棘轮拨齿、螺旋弹簧拉伸与回弹、齿轮电机走纸、钢珠跳档、船型摇杆拍击与锯齿撕纸声），支持 ±4% 随机音高微扰与设置页开关\n2. ✨ 动态光影位移（动必伴光变）：03 滤色旋钮与 04 旋转飞轮实现「盘转而高光留」（底层车纹旋转、顶光 X 形蝴蝶高光瓣相对光源静止微闪）；02 球面键帽按下时 3D 裙边真实压缩 + 右上角 LED 次表面散射漫射柔光晕\n3. 弹簧与棘轮物理 + 📳 多阶线性马达编排：01 红色退片弹簧实装渐硬胡克定律阻尼与回弹余震；02 橙色大压杆实装「触底重击 + 3连齿轮走纸 Tick + 吐卡入槽」5 段组合震动；全面适配 Fold 8 外屏与内屏"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4072) · 博朗一体式滑轨面板 + 6 款艺术胶片拍立得 + 全维度安全与隐私加固 · 44MB】\n1. 🎛 一体式拉丝铝三档机械滑轨 + 纵向整机推拉过场：废除突兀黑框顶栏，直接铣出 I 小票 · II 校对 · III 星盒滑动游标；彻底根治小票仓筛选空置死锁\n2. 🎞 6 款高审美拍立得与胶片底模 + 纸面曲别针文具化：全新宝丽来暮色、柯达 35mm 胶片、镰仓海风、瑞士网格、落日漏光、宋刻宣纸；校对稿改用立体曲别针与齿边邮戳文具；录音小票随说话自下而上吐出并支持斜向撕纸动效（内置 16 种 44.1kHz 合成声效）\n3. 🔒 P0/P1 双审计报告全量清零：锁定笔记跨全模式统一打码与认证门禁、系统非线性大字号无损委托、长文无图星卡分页与离屏全文高清导出、照片跨卡片盒引用保护、320×640@1.3x 零溢出"
 }

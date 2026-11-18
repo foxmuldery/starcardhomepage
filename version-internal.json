@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4074,
+  "buildNumber": 4075,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4074/app-release.apk",
-  "sha256": "566b42be905114075faa6339a0669680f626ef47501610b67e34a48c8e8035aa",
-  "publishedAt": "2026-11-18T19:29:15+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4075/app-release.apk",
+  "sha256": "94c4db329c0e8a8c94c06f58a271d2a3c3ee7c73d8dce23e786e7aa9dc0ac425",
+  "publishedAt": "2026-11-18T20:00:39+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4074) · 电台扇形指针 VU 音高表盘 + 超大『■ 停止 · OFF-AIR』主控大键 · 44MB】\n1. 🎙 录音舱去重与防误触重构：废除容易被误认为按钮的居中飞轮与重复的竖向电平条，升级为单一内凹暖琥珀背光玻璃『扇形左右摆针 VU / PITCH 音高声压表盘』（-20 ➔ 0 ➔ +3 dB 随声灵动摆动，纯只读仪表形态）\n2. ⏹ 超醒目『■ 停止录音 · OFF-AIR』主控大键：底部停止按钮高度放大至 66dp 并占 72% 主拇指热区，配广播级正方 ■ STOP 徽记与顶部 ON-AIR 红灯联动，一眼即知如何终止录音并撕下热敏小票\n3. 🎨 包含 4073 拍立得保存/分享秒级直出修复、第 ③ 页顶部六色模板槽与左下切卡旋钮"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4075) · 超大字显印 + 真机械三档滑动拨杆 + 慢速夸张咔嚓撕纸爽感升级 · 44MB】\n1. 🔍 录音热敏纸超大字号显印：开录即展开宽幅暖白纸视窗，实时转写字号放大至 31sp / 27.5sp 超粗碳黑印字，举手一瞥清晰易读\n2. 🎚️ 真机械三档竖向滑动拨杆（待办 / 灵感 / 备忘）：废除点按按钮，改为深凹铣削滑槽 + 立体滚花金属推杆帽，纯靠手指上下拨动定档（拨到哪档就卡入哪档并持久写入分类）\n3. ✂️ 1080ms 慢速夸张三段式锯齿撕纸动效与 780ms 逐齿撕裂音效：停录瞬间压刀绷紧 ➔ 从右向左 -18° 逐齿撕开 V 形裂口与白纸纤维闪光 ➔ 咔嚓崩断腾空抽离，搭配 8 段拉链级线性马达震动，解压爽感拉满！"
 }

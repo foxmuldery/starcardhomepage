@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4062,
+  "buildNumber": 4063,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4062/app-release.apk",
-  "sha256": "d45df908a49b509bfbbb7196cee47775c200659b3e3b4bf9146cdd4655a93695",
-  "publishedAt": "2026-11-17T19:19:18+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4063/app-release.apk",
+  "sha256": "2d258c5c79579f4346629df2d68eccea2b6da83f2a2354883efb093fa0fd7dba",
+  "publishedAt": "2026-11-18T09:21:52+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4062) · 侧键全场景唤醒修复 + 双击/长按侧键呼出清单与对调 + 博朗卡片盒返回修复 · 61MB】\n1. 彻底修复在 Telegram 等前台界面按电源键未弹出录音面板的问题（修复跨 Session 视图挂载冲突并新增 450ms Watchdog 自动平滑兜底）\n2. 新增「双击电源键呼出待办清单」及「长按 ⇄ 双击电源键功能自定义对调」（支持悬浮层直接打勾 ☐➔☑ 完成待办或一键转语音新待办）\n3. 修复博朗机械拟物模式《卡片盒 04》无法退回《01 滚轮转鼓捕捉仓》的问题（新增「‹ 返回转鼓」机械按键、首槽点击收回、上推回槽及左滑返回手势）"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4063) · 博朗 Blender 3D 微砂铝混合渲染 + 双击/长按侧键呼出清单 + 全场景唤醒修复 · 65MB】\n1. 接入 Blender Cycles 真实无缝微砂铝底纹 (texture_00_aluminium_seamless) 与 3D 菱形滚花进纸推筒等物理切片 + Flutter 实时各向异性高光混合渲染\n2. 彻底修复在 Telegram 等前台界面按电源键未弹出录音面板的问题（修复跨 Session 视图挂载冲突并新增 450ms Watchdog 自动平滑兜底）\n3. 新增「双击电源键呼出待办清单」及「长按 ⇄ 双击电源键功能自定义对调」（支持悬浮层直接打勾 ☐➔☑ 完成待办或一键转语音新待办）\n4. 修复博朗拟物模式《卡片盒 04》无法退回转鼓首页的问题（新增「‹ 返回转鼓」机械按键、首槽收回、上推回槽及左滑返回手势）"
 }

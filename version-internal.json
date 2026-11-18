@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4066,
+  "buildNumber": 4067,
   "channel": "internal",
-  "apkUrl": "https://raw.githubusercontent.com/foxmuldery/starcardhomepage/main/ota/app-release-4066.apk",
-  "sha256": "43627016786771fb7cdcb16076c24a49643be82b536b17162c0775e994748768",
-  "publishedAt": "2026-11-18T11:55:00+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4067/app-release.apk",
+  "sha256": "719b10d3c6476b47a3018f4d05acc2a3a790b9d889e2e8342af8408f730ae92f",
+  "publishedAt": "2026-11-18T12:10:46+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4066) · Fold 8 外屏/内屏全比例自适应 + 博朗机械拟物 3D 组件精修 · 42MB】\n1. 移除 9:19 窄屏灰边死区，全屏 100% 铺满真机喷砂铝合金底盘，并针对 Fold 8 外屏与内屏实现全组件动态几何适配\n2. 01 滚轮转鼓仓：恢复立体弧面活页转鼓、顶部双色梯形索引耳、左侧 7 圈不锈钢退片弹簧拨杆与右侧博朗橙滚花进纸胶辊\n3. 02 拆词走纸台：升级 1u/2u/3u 自适应四面斜切立体球面键帽矩阵（长英文如 homeless 自动跨 2u 完整展示不截断）+ 钢制回形针别住倾斜拍立得\n4. 03 立式卡槽吐片台：58% 黄金画幅拍立得大图 + 紧凑待办清单\n5. 04 飞轮拾音舱：热敏纸带、金属压纸辊、旋转飞轮、16 段荧光绿 VU 表、三枚实体摇杆与底部双丸形键一屏完整同框"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4067) · 博朗机械拟物「声·光·触·动」四感联动引擎 (BraunTactileEngine) + Fold 8 外屏全比例自适应 · 44MB】\n1. 🔊 机械声学合成引擎 (BraunTactileNative)：原生 SoundPool 44.1kHz 16-bit 物理建模 14 种机械声效（双段静电容键帽 Thock-Down / Clack-Up、棘轮拨齿、螺旋弹簧拉伸与回弹、齿轮电机走纸、钢珠跳档、船型摇杆拍击与锯齿撕纸声），支持 ±4% 随机音高微扰与设置页开关\n2. ✨ 动态光影位移（动必伴光变）：03 滤色旋钮与 04 旋转飞轮实现「盘转而高光留」（底层车纹旋转、顶光 X 形蝴蝶高光瓣相对光源静止微闪）；02 球面键帽按下时 3D 裙边真实压缩 + 右上角 LED 次表面散射漫射柔光晕\n3. 弹簧与棘轮物理 + 📳 多阶线性马达编排：01 红色退片弹簧实装渐硬胡克定律阻尼与回弹余震；02 橙色大压杆实装「触底重击 + 3连齿轮走纸 Tick + 吐卡入槽」5 段组合震动；全面适配 Fold 8 外屏与内屏"
 }

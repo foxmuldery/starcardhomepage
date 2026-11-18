@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4065,
+  "buildNumber": 4066,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4065/app-release.apk",
-  "sha256": "a37496f503acc2aba40bb12142575a98e996e8f5a27f001a61f5816c6888a4c3",
-  "publishedAt": "2026-11-18T10:36:45+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4066/app-release.apk",
+  "sha256": "e618c38ca66a01574c2a17eab8b952f4c53f6780391b2beaf2bccbd03548a4f3",
+  "publishedAt": "2026-11-18T11:29:10+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4065) · Variant B「AI 整机底板三层装配」正式落地 + 新版 VI 桌面图标 · 81MB】\n1. 全量实装 Variant B（AI 整机底板 Layer 0 + Flutter 纸层 Layer 1 + 透明前景零件与旋转件 Layer 2），严格对齐 anchors.json 归一化坐标与 9:19 整机舞台 (BDeviceCanvas)\n2. 01 闪记滚轮仓 (baseplate_01)、02 键帽拆词走纸台 (baseplate_02_v2)、03 立式卡槽与滤色吐片台 (baseplate_03_v2)、04 上吐纸下置飞轮拾音舱 (baseplate_04_v3) 1:1 还原 B 版验收效果\n3. 全尺寸替换新版 VI 桌面应用图标（四段折带环抱中心星点 app-icon-1024.png）并默认开启博朗机械拟物主题"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4066) · 博朗机械拟物 100% 满屏底盘 + 3D 滚轮转鼓与弹簧/橙色胶辊 + 1u-3u 自适应球面键帽 + 单屏拾音舱 · 81MB】\n1. 移除 9:19 窄屏黑灰侧边留白，全屏 100% 铺满真机喷砂铝合金底盘（texture_00_aluminium_seamless）\n2. 01 滚轮转鼓仓：恢复立体弧面活页转鼓、顶部双色梯形索引耳、左侧 7 圈不锈钢退片弹簧拨杆与右侧博朗橙滚花进纸胶辊\n3. 02 拆词走纸台：升级 1u/2u/3u 自适应四面斜切立体球面键帽矩阵（长英文单词自动跨 2u 完整展示不截断）+ 钢制回形针别住倾斜拍立得\n4. 03 立式卡槽吐片台：58% 黄金画幅拍立得大图 + 紧凑待办清单，告别大面积留白\n5. 04 飞轮拾音舱：重构为紧凑单屏高密度布局，热敏纸带、金属压纸辊、旋转飞轮、16 段荧光绿 VU 表、三枚实体摇杆与底部双丸形键一屏完整同框"
 }

@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4079,
+  "buildNumber": 4080,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4079/app-release.apk",
-  "sha256": "9ecb006d12f483f0e650dbd34b55fc0e9918d84c27344190548c1f65d24dab33",
-  "publishedAt": "2026-11-19T02:16:25+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4080/app-release.apk",
+  "sha256": "f986cd1df85dd9dab60a0e376cc1f730a22e5554e392eee9ff23a31134f2affc",
+  "publishedAt": "2026-11-19T08:48:03+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🛠️ 摘星闪记 v1.8.4 (4079) · 紧急修复全览模式左下角删除/取消键卡住死锁 · 44MB】\n1. 🛠️ 修复 I 小票与 III 星盒在『全部』全览模式下操作左下角『撕毁此条』后按钮变灰卡死、全页无法继续删除的死锁问题（打通全览态碎纸状态与 760ms 幂等兜底复位机制，即使条目滚出屏幕外或切页也 100% 准时完成并恢复可按）\n2. ⚡ 修复 04 录音舱左下角『✕ 取消丢弃』键：无论从主界面、侧键还是锁屏呼出，点击即刻中断丢弃未保存录音并 0ms 退出面板，不再卡在后台保存/转写等待中\n3. ↩️ 加固 II 校对左下角『退回小票』键自动收起键盘并顺畅返回"
+  "releaseNotes": "【🎛️ 摘星闪记 v1.8.4 (4080) · 博朗机械工作室「震动 · 声音 · 微微光影」三感精雕升级 · 44MB】\n1. 📳 精细化原生线性马达震动编排（API 31+ THUD / QUICK_RISE / QUICK_FALL / LOW_TICK 分级 + 全设备 Fallback 补齐）：新增『指腹初触金属 grab_contact』、『推杆过 62% 阈值上膛 stage_arm』、『橡皮邮戳盖章 stamp_ink』、『钢丝曲别针弹合 paperclip_pin』、『待办勾选/取消双向区分 check_mark / check_unmark』与『04 断播大键重型微动 broadcast_stop』\n2. 🔊 物理建模机械声学升级（braun_acoustics_v6，26 组低延迟原生 SoundPool 采样）：滚轮与时间三滚筒支持上下方向音高微差（下滚略亮、上滚略沉），邮戳/曲别针/清单/OFF-AIR 键各自拥有专属材质声学\n3. ✨ 细腻克制的微视觉反馈：所有扁平控件全面升级真实下沉与微暗高光遮罩；滑杆拖动时后方导轨渐进点亮能量槽并在 62% 上膛点转翡翠绿；滚轮拨动时滚槽泛起博朗橙微光并点亮方向箭头；键帽按下瞬间即刻下沉并亮起预触发微光；切换 6 款拍立得底模叠加 220ms 暗房滤镜微闪，清单打勾伴随柔和墨迹落定反馈"
 }

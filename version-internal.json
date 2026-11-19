@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4080,
+  "buildNumber": 4081,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4080/app-release.apk",
-  "sha256": "f986cd1df85dd9dab60a0e376cc1f730a22e5554e392eee9ff23a31134f2affc",
-  "publishedAt": "2026-11-19T08:48:03+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4081/app-release.apk",
+  "sha256": "98b9c30710be4699547a2514450dd5f76f698f75d0cbbdb872a736195acc0ac3",
+  "publishedAt": "2026-11-19T08:59:30+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🎛️ 摘星闪记 v1.8.4 (4080) · 博朗机械工作室「震动 · 声音 · 微微光影」三感精雕升级 · 44MB】\n1. 📳 精细化原生线性马达震动编排（API 31+ THUD / QUICK_RISE / QUICK_FALL / LOW_TICK 分级 + 全设备 Fallback 补齐）：新增『指腹初触金属 grab_contact』、『推杆过 62% 阈值上膛 stage_arm』、『橡皮邮戳盖章 stamp_ink』、『钢丝曲别针弹合 paperclip_pin』、『待办勾选/取消双向区分 check_mark / check_unmark』与『04 断播大键重型微动 broadcast_stop』\n2. 🔊 物理建模机械声学升级（braun_acoustics_v6，26 组低延迟原生 SoundPool 采样）：滚轮与时间三滚筒支持上下方向音高微差（下滚略亮、上滚略沉），邮戳/曲别针/清单/OFF-AIR 键各自拥有专属材质声学\n3. ✨ 细腻克制的微视觉反馈：所有扁平控件全面升级真实下沉与微暗高光遮罩；滑杆拖动时后方导轨渐进点亮能量槽并在 62% 上膛点转翡翠绿；滚轮拨动时滚槽泛起博朗橙微光并点亮方向箭头；键帽按下瞬间即刻下沉并亮起预触发微光；切换 6 款拍立得底模叠加 220ms 暗房滤镜微闪，清单打勾伴随柔和墨迹落定反馈"
+  "releaseNotes": "【🏛️ 摘星闪记 v1.8.4 (4081) · 新增「摘星设计博物馆」主题展签卡与策展介绍页 · 44MB】\n1. 🏛️ 设置页顶部新增独立「设计博物馆 · 当前主题展签」卡片：一眼呈现当前主题的馆藏编号（如 NO. 01 · ZX-TP1）、4 色材质色标、灵感来源、设计风格与核心设计美学，并随切换主题实时联动更新\n2. 🖼️ 新增沉浸式「摘星设计博物馆」主题策展介绍页（ThemeMuseumPage）：未来每一套全新主题模型都将作为一张独立设计博物馆展品卡片收录，内置专属建筑/工业几何标本纹样、材质色标卡、灵感溯源与致敬器物名录、设计风格、设计美学、声光触动工艺规格，并支持横向翻阅全部馆藏主题及一键启用\n3. 🎛️ 完整保留 v4080 全链路 26 组物理建模机械声学（braun_acoustics_v6）、API 31+ 线性马达分级震动编排与细腻微视觉反馈"
 }

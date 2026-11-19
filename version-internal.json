@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4086,
+  "buildNumber": 4087,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4086/app-release.apk",
-  "sha256": "e4cd06a380dfc359da4a01db2a64734ecdd950d88040f9bb5fa65d12dce8f27d",
-  "publishedAt": "2026-11-19T12:55:24+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4087/app-release.apk",
+  "sha256": "99f2e14ba6c7ba6c754779e45298d0c47192a3bdbe39b55019ef79cd04ce4e73",
+  "publishedAt": "2026-11-19T13:21:47+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🚨 摘星闪记 v1.8.4 (4086) · 数据库断连自愈热修 / 刚体物理下压窄滑槽删除开关 · 44MB】\n1. 🛡️ 彻底修复覆盖安装首启并发撞锁导致的 SQLite 死句柄缓存故障（「原有记录显示为空且新录音无法保存」）：DbHelper.db 强校验 isOpen、首开自愈结尾增加健康探针（拒绝缓存死连接并自动重建）、核心读写全面接入 resetConnectionOnError 断连自动重连重试、加入 PRAGMA busy_timeout=5000，并在拟物主屏保留数据 + 增加一键重载恢复条\n2. ⚙️ 重铸左下角「撕毁此条」真刚体物理下压滑槽开关：左侧 3D 绯红立体推钮宽度 100% 恒定（按下绝不违背物理定律地缩短！），跨骑在拉丝金属面板中央明显收窄（48% 高）的深凹导轨滑槽上；点按垂直下沉 2.5dp 缩回银钢止动销并全程保留厚实 3D 裙边、斜切倒角、3 道立体防滑竖棱与真实投影，再顺窄滑槽右滑至 ✂ 刀口触发纵切碎纸"
+  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4087) · 单张原地撕纸留底子留纸叠缝隙 / 老用户纯净器物模式开关 · 44MB】\n1. 📄 真实单张撕纸空间层级重构（不再整本被撕毁）：撕毁小票时，顶部与底部 3 层立体纸叠及文件缝隙纹丝不动，只有面前这一张热敏小票原地 9 刀纵切滑落；裂开的刀缝背后实时露出下一张完整小票（若已是最后一张，则稳稳露出带金属压纸夹的实体硬质底衬板 THERMAL PAD BASE）；III 星盒拍立得同步接入单张碎纸底层实卡/暗盒金属底托\n2. 🎛️ 新增老用户「纯净器物模式（隐藏操作指示文字）」独立设置开关（设置页一键开启/持久化）：隐去阶段滑杆、删除滑槽、走纸胶辊、滚花滚轮与上下 3D 纸叠边缘上的全部教学引导文字，仅留纯粹工业机械控件、纸叠缝隙与盲操手感（个人正文、分类色标与瞬态限位/保存提示完整保留）"
 }

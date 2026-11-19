@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4081,
+  "buildNumber": 4082,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4081/app-release.apk",
-  "sha256": "98b9c30710be4699547a2514450dd5f76f698f75d0cbbdb872a736195acc0ac3",
-  "publishedAt": "2026-11-19T08:59:30+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4082/app-release.apk",
+  "sha256": "755bfe2c8be7ec42c4b9549f3333ef3768ee6fad43cab0e06a74044ae081c99d",
+  "publishedAt": "2026-11-19T10:02:26+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🏛️ 摘星闪记 v1.8.4 (4081) · 新增「摘星设计博物馆」主题展签卡与策展介绍页 · 44MB】\n1. 🏛️ 设置页顶部新增独立「设计博物馆 · 当前主题展签」卡片：一眼呈现当前主题的馆藏编号（如 NO. 01 · ZX-TP1）、4 色材质色标、灵感来源、设计风格与核心设计美学，并随切换主题实时联动更新\n2. 🖼️ 新增沉浸式「摘星设计博物馆」主题策展介绍页（ThemeMuseumPage）：未来每一套全新主题模型都将作为一张独立设计博物馆展品卡片收录，内置专属建筑/工业几何标本纹样、材质色标卡、灵感溯源与致敬器物名录、设计风格、设计美学、声光触动工艺规格，并支持横向翻阅全部馆藏主题及一键启用\n3. 🎛️ 完整保留 v4080 全链路 26 组物理建模机械声学（braun_acoustics_v6）、API 31+ 线性马达分级震动编排与细腻微视觉反馈"
+  "releaseNotes": "【🏛️ 摘星闪记 v1.8.4 (4082) · 聚焦物理拟物路线：精简主题为「博朗机械工作室 + 东方纸墨长卷（过渡版）」 · 44MB】\n1. 🎯 精简设置页与设计博物馆馆藏：正式下线『单卡叠牌』与『经典流光』入口，仅保留『NO. 01 博朗机械工作室（拟物旗舰）』与『NO. 02 东方纸墨长卷（过渡版）』，确立未来全面物理拟物化的馆藏路线\n2. 🔄 旧偏好自动无感迁移：曾停留在旧主题的用户升级启动后自动切换至博朗机械工作室\n3. 🏛️ 完整保留设置页独立「设计博物馆 · 当前主题展签」卡片与策展介绍页（含材质色标、灵感溯源、设计风格、核心美学与声光触动工艺）"
 }

@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4099,
+  "buildNumber": 4100,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4099/app-release.apk",
-  "sha256": "40a812837d470cce44c2eba3ba3a5171230a804d59b4f615142b8d76c05b9993",
-  "publishedAt": "2026-11-19T21:45:20+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4100/app-release.apk",
+  "sha256": "6c22c751adaeacd1059e9141b6ad78640c1959d6fe432bdd64fa3c2b5c83d432",
+  "publishedAt": "2026-11-19T23:41:55+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4099) · 动态 3D 物理纸沓厚度 + III BOX 终极统一底栏三件套（← / ◯↓ / 博朗橙 ▸ ↗ 滑杆） · 47MB】\n1. 📚 I SLIP & III BOX 真实动态 3D 物理纸沓厚度：告别静态写死纸边！单张（01/01）上下均为 0 层轻薄贴底；少张（2~3 张）与多张（4~8+ 张）严格按真实已翻/剩余张数动态渲染 0~5 层上下阶梯纸边与渐深 135° 落影，翻到顶上 0、翻到底（如 04/04）下 0 见底，滚轮翻页平滑呼吸过渡\n2. 🎛️ III BOX 底部操控舱与 I SLIP / II EDIT 100% 终极统一：全高居中 38dp 黄金水平轴线——左 48% 拆为「香槟暖灰细长胶囊返回键 ← + 10dp 间距 + 38×38dp 正圆铝合金内凹圆碗保存键 ↓」，右 52% 换装同款 38dp 博朗橙竖脊滑杆（槽尾微刻 ▸ ↗），右滑到底触发分享并平滑回弹\n3. ✂️ 延续方案 2 深岩灰舱左下暗装钛灰竖向裁纸推栓 + 左右 34dp 绝对对称居中纸仓 + 极净 27dp 共线顶栏 + 底部零文字纯雕塑朱红话筒大键"
+  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4100) · 横屏与折叠屏全形态 100% 统一：III BOX 右下角三件套 + 全形态暗装裁纸栓与动态 3D 纸沓 · 47MB】\n1. 📱 横屏与折叠屏展开态（Fold 8 / 宽屏 / 紧凑横屏）III BOX 彻底废弃旧版三颗矩形按键，100% 复用竖屏家族版式：左香槟暖灰细长胶囊返回键 ← + 中 38×38dp 正圆铝合金内凹保存碗 ↓ + 右 52% 博朗橙竖脊分享滑杆（槽尾微刻 ▸ ↗），与 I SLIP / II EDIT 右下底栏严格对齐 74dp/60dp 黄金轴线\n2. ✂️ 补齐横屏与折叠屏单卡及 [● ALL] 全览态下的深岩灰左壁暗装钛灰竖向裁纸推栓（_BraunStealthVerticalCutterLatch），清除 I SLIP 紧凑横屏滑杆残留中文\n3. 📚 延续全形态 I SLIP & III BOX 真实动态 3D 物理纸沓厚度（单张/少张/多张与翻到顶/翻到底 0~5 层呼吸过渡）与极净 27dp 共线顶栏"
 }

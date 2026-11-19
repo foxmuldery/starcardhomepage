@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4091,
+  "buildNumber": 4094,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4091/app-release.apk",
-  "sha256": "50b09a8a669575d6885444a6b27528de762aa2ee3726d24942d52ff34a57e904",
-  "publishedAt": "2026-11-19T16:43:09+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4094/app-release.apk",
+  "sha256": "ce4d9cd1b3ee15ef83c66f9f25472fec7e5ddd7ea613e0ef1e42f8aea4ec7181",
+  "publishedAt": "2026-11-19T19:14:24+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【⚙️ 摘星闪记 v1.8.4 (4091) · 顶栏「全部」切换零形变锁定 + I/II 阶段 48:52 黄金双联底栏 + 安卓桌面与 Z Flip 外屏小部件 · 44MB】\n1. 🔒 顶栏全槽位刚体尺寸锁定：修复在 I 小票与 III 星盒点击「全部」时因右侧检索图标或 56dp 微型碎纸槽显隐导致顶部三工位滑杆拉宽、按钮位移与 6×6 LED 微缩形变的问题；切换单张/全部总览时，顶部排布与所有按钮坐标/尺寸保持 0.00dp 纹丝不动\n2. 🎛️ I 小票与 II 校对底栏 48:52 黄金双联同构（左 48% 立体朱红 REC / 退回小票 · 右 52% 同宽同高同坐标博朗橙推进滑杆）\n3. 🧩 安卓桌面 / 锁屏 / 三星 Galaxy Z Flip 外屏原生博朗小红钮小部件（2×2 与 4×2）及 Z Flip 5/6/7/8 全形态适配（外屏口袋舱、90° 半折上下分屏、22:9 满幅内屏）"
+  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4094) · Braun TP1 v2 工业母机 + 135° 光影 + 零中文丝印 + 全新声波硬件图标与满铺小部件 + Shorebird 热更基线 · 47MB】\n1. 🎨 正式定名《留声闪记》(FLASH MEMO)，启用全新 Logo C 阳极铝声波滑块图标 + Logo A 满铺拉丝铝 2×2 一键闪录 / 4×2 声波小票台桌面小部件\n2. 🏛️ 1:1 精雕 Braun TP1 v2：暖香槟钛银 CNC 一体机身 + 135° 左上摄影棚主光，废除底部黑方框，升级一体铝车削内凹圆碗 + 哑光朱红圆形大键（纯麦克风图标，1 点钟凹刻 REC）与暖铝直铣胶囊滑槽 + 3 平面捏脊博朗橙拨块\n3. 🧭 顶部三工位丝印直印铝面（I SLIP / II EDIT / III BOX）+ 深炭灰捏脊拨块；全机身零中文国际化工业丝印（ALL / MOOD / IDEA / MEMO / 01..06 / EDIT / SHARE / SAVE / ABORT / OFF-AIR）\n4. 🎡 深岩蓝灰内凹纸仓 + 右壁收缩嵌入式 3D 圆柱钢滚轮（真实三角透视齿距）+ 无框悬浮热敏纸叠（顶中折叠夹 + 高对比声纹）+ 36dp 哑光黑橡胶走纸滚筒\n5. ⚡ 双端内置 Shorebird Code Push 热更新引擎 + Galaxy Z Flip 全系适配"
 }

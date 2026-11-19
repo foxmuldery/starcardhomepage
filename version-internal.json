@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4096,
+  "buildNumber": 4097,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4096/app-release.apk",
-  "sha256": "e7063f85eb94573ab954f1e59e7e334c3974768aa78973a9b28826dd02378478",
-  "publishedAt": "2026-11-19T20:10:09+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4097/app-release.apk",
+  "sha256": "721c4f1beaad980eb5bfec4c5f6e30b7634e17e5397604317714f1c0f24e2cb4",
+  "publishedAt": "2026-11-19T20:23:39+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4096) · 极简减法：纯净无字模式归入设置 + 顶栏更舒展 + 04 暖铝录音舱 · 47MB】\n1. ✨ 顶栏极致减法：移除主界面顶栏与录音舱上的低频「全无字纯净模式」快捷键，顶栏右侧恢复极简三件套（删除滑槽 / [● ALL] / ⚙ 设置），三工位拨杆更舒展；「全无字盲操模式」开关专属收敛在 ⚙ 设置页内\n2. 🎙️ 04 录音舱 Braun TP1 v2 135° 香槟暖铝一体机身：30dp 加粗哑光黑胶走纸滚筒、暖铝直铣三档分类拨杆、135° 暖黄摆针 VU 表与深凹铝盆朱红停录大键\n3. 🃏 纯净纸卡与无字凹刻底栏键：移除 III BOX / I SLIP 纸卡表面多余按钮与中文分类胶囊，仅留 6.5dp 色点 + 日期；III BOX 底部三键与 II EDIT 返回键纯图标无字化 + 135° 暖铝凹槽\n4. 📐 Stage III 滚筒精准对齐 & Braun DN-40 纯数字提醒钟（11.19 | 19 | 57）+ 宣纸卡「留声手札 / 留声」品牌印章"
+  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4097) · 顶栏 27dp 激光共线对齐 + ● REC 1点钟肩部锚定 + 零冗余中文洁净机身 · 47MB】\n1. 📐 顶栏最上一排严格视觉对齐：左侧三工位滑槽与右侧 [||🗑️]、[● ALL]、[⚙] 全部统一锁定 27dp 等高与 6.5dp 圆角，底边/中轴/顶边 100% 落在同一水平直线；移除 I SLIP 顶栏多余裸露搜索图标与低频纯净模式快捷键（收敛回 ⚙ 设置页）\n2. 🎯 ● REC 钢印坐标纠偏：将 ● REC 精准锚定在圆形内凹录音铝碗自身 1 点钟肩部斜切外缘，彻底杜绝随宽屏向底栏正中漂移\n3. 🧼 机壳与卡面残余中文清零：星盒底片索引改为 INDEX · XX、空态改为 EMPTY、拍立得底栏分类去冗余后缀仅留 MOOD / IDEA / MEMO、检索框与暗盒状态统一工业英文铭文\n4. 🎙️ 全套 Braun TP1 v2 135° 香槟暖铝录音舱 + Braun DN-40 纯数字提醒钟 + 宣纸卡「留声手札 / 留声」品牌印章"
 }

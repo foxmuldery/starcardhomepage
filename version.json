@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
   "buildNumber": 4100,
-  "channel": "internal",
+  "channel": "beta",
   "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4100/app-release.apk",
   "sha256": "6c22c751adaeacd1059e9141b6ad78640c1959d6fe432bdd64fa3c2b5c83d432",
-  "publishedAt": "2026-11-19T23:41:55+08:00",
+  "publishedAt": "2026-11-20T08:21:04+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【🏛️ 留声闪记 FLASH MEMO v1.8.4 (4100) · 横屏与折叠屏全形态 100% 统一：III BOX 右下角三件套 + 全形态暗装裁纸栓与动态 3D 纸沓 · 47MB】\n1. 📱 横屏与折叠屏展开态（Fold 8 / 宽屏 / 紧凑横屏）III BOX 彻底废弃旧版三颗矩形按键，100% 复用竖屏家族版式：左香槟暖灰细长胶囊返回键 ← + 中 38×38dp 正圆铝合金内凹保存碗 ↓ + 右 52% 博朗橙竖脊分享滑杆（槽尾微刻 ▸ ↗），与 I SLIP / II EDIT 右下底栏严格对齐 74dp/60dp 黄金轴线\n2. ✂️ 补齐横屏与折叠屏单卡及 [● ALL] 全览态下的深岩灰左壁暗装钛灰竖向裁纸推栓（_BraunStealthVerticalCutterLatch），清除 I SLIP 紧凑横屏滑杆残留中文\n3. 📚 延续全形态 I SLIP & III BOX 真实动态 3D 物理纸沓厚度（单张/少张/多张与翻到顶/翻到底 0~5 层呼吸过渡）与极净 27dp 共线顶栏"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.8.4 (4100) · 公测推送版】\n1. 🎙️ 拟物三段式随手记：轻触朱红拾音键即可随时录音转写，支持 I SLIP 热敏纸条速览、II EDIT 拆词精修与 AI 润色、III BOX 拍立得高清卡片盒。\n2. 📚 真实动态 3D 纸沓与机械交互：纸条与卡片厚度随笔记数量及当前页码实时呼吸变化；左侧内凹壁隐藏裁纸推栓（轻点解锁后上推即可碎纸删除），支持精细机械触感反馈。\n3. 📱 全形态统一与纯净美学：竖屏、横屏与折叠屏（如 Fold 8 展开态）操作体验全面对齐，支持在「设置」中开启纯图标极简模式与桌面快捷小组件。"
 }

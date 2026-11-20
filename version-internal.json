@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4100,
+  "buildNumber": 4102,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4100/app-release.apk",
-  "sha256": "6c22c751adaeacd1059e9141b6ad78640c1959d6fe432bdd64fa3c2b5c83d432",
-  "publishedAt": "2026-11-20T09:24:19+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4102/app-release.apk",
+  "sha256": "eb6fb8bbed953e4dddc2ecbc4a860e77e4eb70b28afd09e582163288969ee8b6",
+  "publishedAt": "2026-11-20T11:20:56+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【留声闪记 FLASH MEMO v1.8.4 (4100) · 公测推送版】\n1. ⚡ 长按电源键一键呼出录音：在「设置」中将留声闪记设为系统默认数字助理后（三星机型需同时在侧面按钮→长按中选数字助理），任意界面长按电源键即可秒开语音闪记并自动离线转写；还支持搭配双击电源键速览待办及功能对调。\n2. 🎙️ 拟物三段式随手记：轻触朱红拾音键即刻录音，经 I SLIP 热敏纸条速览 → II EDIT 拆词精修与 AI 润色 → III BOX 300DPI 拍立得高清卡片盒三步沉淀灵感。\n3. 📚 动态 3D 纸沓与全形态统一：纸沓厚度随笔记数实时呼吸，左下内壁藏有暗装裁纸推栓（轻点解锁上推碎纸删卡）；全面适配竖屏、横屏与折叠屏双舱，并支持纯图标无字模式与桌面小组件。"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.8.4 (4102) · 机械声学重塑 v8 · 47MB】\n1. 🔊 全面重塑物理拟物声学：拍立得形成升级为干脆双帘机械拍照快门声（「咔—嚓！」）；拍立得保存与分享统一升级为真实压辊吐片出纸声（彻底消除电子哨音与滑杆重音）；录音完成撕小票与暗装裁纸删卡升级为真实纸纤维撕裂声。\n2. ⚡ 长按电源键一键呼出录音：在「设置」中设为系统默认数字助理后（三星同步在侧面按钮→长按选数字助理），任意界面长按电源键即可秒开录音与离线转写，支持双击待办与功能对调。\n3. 📚 延续全形态统一体验：动态 3D 物理纸沓、左下暗装裁纸推栓、III BOX 统一底栏、横屏与折叠屏双舱适配与纯图标无字模式。"
 }

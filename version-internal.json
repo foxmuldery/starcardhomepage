@@ -1,10 +1,10 @@
 {
   "version": "1.8.4",
-  "buildNumber": 4102,
-  "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4102/app-release.apk",
-  "sha256": "eb6fb8bbed953e4dddc2ecbc4a860e77e4eb70b28afd09e582163288969ee8b6",
-  "publishedAt": "2026-11-20T11:20:56+08:00",
+  "buildNumber": 4103,
+  "channel": "beta",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.8.4-4103/app-release.apk",
+  "sha256": "1c94aab59221a8cb3f7cf1b361f5b4bd45bc094a6fa6a0f92aef331c2850d9dd",
+  "publishedAt": "2026-11-20T16:26:50+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【留声闪记 FLASH MEMO v1.8.4 (4102) · 机械声学重塑 v8 · 47MB】\n1. 🔊 全面重塑物理拟物声学：拍立得形成升级为干脆双帘机械拍照快门声（「咔—嚓！」）；拍立得保存与分享统一升级为真实压辊吐片出纸声（彻底消除电子哨音与滑杆重音）；录音完成撕小票与暗装裁纸删卡升级为真实纸纤维撕裂声。\n2. ⚡ 长按电源键一键呼出录音：在「设置」中设为系统默认数字助理后（三星同步在侧面按钮→长按选数字助理），任意界面长按电源键即可秒开录音与离线转写，支持双击待办与功能对调。\n3. 📚 延续全形态统一体验：动态 3D 物理纸沓、左下暗装裁纸推栓、III BOX 统一底栏、横屏与折叠屏双舱适配与纯图标无字模式。"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.8.4 (4103) · 完整内置离线模型版 · 198MB】\n1. 🛡️ 彻底根治新机首启白屏（红米 K90 / HyperOS 4 / Android 16 实测验证）：内置 228MB SenseVoiceSmall 离线语音模型开箱即用，彻底告别首启联网卡顿；强制 Skia 渲染（EnableImpeller=false）+ 暖纸灰启动背景（#E6E3DB）+ 同 Zone 冷启安全重锁与全局异常降级。\n2. ✂️ 默认撕票直达 II EDIT & 新增「快记模式」：录音停止撕票后直接进入 II EDIT 边出字边改字、打标签、加照片，原 I SLIP 小票仓保留可随时回切；设置页新增「快记模式」开关（开启后录完静默后台保存并返回原应用），并清理「更多选项」中重复的主题选择项。\n3. 🔒 生产质量审计全量加固：慢转写单事务保护防覆盖手写/清空正文、Worker Isolate 分代防迟到串线、丢弃录音防幽灵残留、照片预览防错显与去同步 I/O、编辑位置改为显式同意后再查地图、诊断日志脱敏加固、补齐 Apache-2.0 / FunASR v1.1 / Silero VAD MIT / ONNX Runtime MIT 完整协议。"
 }

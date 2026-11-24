@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "buildNumber": 4127,
+  "buildNumber": 4129,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4127/app-release.apk",
-  "sha256": "79d50b194b2ac10aade72eef17458cfacb7c683702b834d0322c84d38b9330c2",
-  "publishedAt": "2026-11-23T18:41:00+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4129/app-release.apk",
+  "sha256": "b4666826277edbaaf50eaa791b65fbda23b23cd2ce4b7887b743378f9446e42e",
+  "publishedAt": "2026-11-24T12:04:00+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4127) · 全屏暗夜博朗深色模式 + 宽屏原装博朗硬件风格统一 + 竖屏小小手撕线 + 模型原子落盘与防零音锁死 · 199MB】\n1. 🌙 全屏标准暗色模式（#1242）：覆盖竖屏卡盒、宽屏画桌、大爆炸校对、整理清箱、提醒面板与快捷菜单全链路，采用炭黑金属机身、暗暖石画桌、炭纸卡片与琥珀暖背光 VU 表，状态栏明暗自动翻转，浅色模式 0px 回归。\n2. 🎛️ 宽屏 / 折叠屏 / 平板 / Mac 原装博朗硬件语言统一（#1244）：顶栏回归原装 BraunV1TopBar 与齐平右上金属拨片设置开关；左下原装四档实体分类滑块与 ET66 搜索键帽舱，与右下迷你博朗录音舱 0.00px 等高基线对齐。\n3. ✂️ 竖屏卡片底缘升级「小小手撕线」（#1248）：1.30–1.35dp 精密微齿、4.6dp 节距配纸面内 0.65dp 虚线压痕，还原便携记事本清脆利落的手撕微孔边缘。\n4. 🛡️ 底层稳定性硬修复（#1249）：端侧离线语音模型释放改用 .part 原子写入 + 字节校验 + rename + .meta 侧车与并发单飞锁；Android 录音静音增加防重入锁与异常启动音量自动恢复。\n5. 🔁 完整继承宽屏平摊画桌、竖屏上早下新与左右滚轮镜像对称、真·HTTP Range 断点续传、拍立得分享工坊、坚果云/iCloud/本地 .zip 三引擎多端备份与 Galaxy Watch5 Pro / Apple Watch 伴侣端联动。"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4129) · 终极融合卡片排版（位置 C 右上单行地点时间） + 三星 OTA 助理脱钩诊断 · 199MB】\n1. 🗂️ 竖屏单卡 0.00px 物理同构升级（#1279/#1287）：折叠态与展开态恒定 24dp 竖排分类色脊（分类两字顶部定锚）与统一正文起笔基线，抽卡展开零位移零跳变。\n2. 📍 位置 C 右上单行元数据（#1287）：彻底释放左侧正文下方呼吸空间，有地点时右上单行优雅合并为「地点 · 时间」（长地名自动限宽省略防挤占，无地点时仅显示等宽时间），同步统一宽屏平摊画桌卡片排版。\n3. 🎛️ 方案 2 底部通栏博朗精密声纹尺：展开卡片底端横贯圆形博朗橙 ▶/⏸ 键 + 精密点杠声纹尺 + 右端等宽时长，浅色与暗夜博朗深色模式同步精调。\n4. 🩺 三星固件 OTA 后语音助理假挂钩诊断（#1281）：新增 Android 原生 ShannianVoiceInteractionService.isServiceReady 实时探测，检测系统升级后默认助理脱钩时在设置页给出温和恢复引导。\n5. 🔁 完整继承全屏暗夜博朗深色模式、宽屏平摊画桌与原装博朗硬件语言、小小手撕线、真·HTTP Range 断点续传、拍立得分享工坊、坚果云/iCloud/本地 .zip 多端备份与 Watch 伴侣端联动。"
 }

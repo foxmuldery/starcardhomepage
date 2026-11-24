@@ -3698,3 +3698,20 @@ section[id] {
         transform: translate(-50%, -50%) rotate(-3deg);
     }
 }
+
+/* Mac launch: additive to the existing Chrome and layout demos. */
+.hero__setup { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 12px 0 0; font-size: 14px; }
+.hero__setup a { color: var(--gold-2); text-decoration: underline; text-underline-offset: 4px; }
+.mac-launch { background: #fff2df; color: #352419; }
+.mac-launch__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.06fr); align-items: center; gap: clamp(28px, 6vw, 88px); }
+.mac-launch .kicker { color: #805021; }
+.mac-launch h2 { margin: 0 0 18px; }
+.mac-launch__copy .section-lead { color: #61483a; }
+.mac-launch__steps { margin: 24px 0; }
+.mac-launch__steps li > span { background: #f5d7aa; color: #643a13; }
+.mac-launch__figure { margin: 0; }
+.mac-launch__figure img { display: block; width: 100%; height: auto; border: 1px solid #edd6b8; border-radius: 18px; box-shadow: 0 20px 60px rgba(78, 43, 20, .14); }
+.mac-launch__fallback { margin: 10px 0 0; color: #684d3b; font-size: 13px; }
+@media (max-width: 800px) {
+    .mac-launch__grid { grid-template-columns: minmax(0, 1fr); }
+}

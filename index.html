@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>摘星卡片 · 把网页里的好句子，摘成一张卡片</title>
-    <meta name="description" content="摘星卡片是一款 Chrome 扩展：选中网页文字，一键生成带来源与原文二维码的分享卡片。八种版式、3× 高清导出、本地卡片库，数据只留在浏览器。">
+    <meta name="description" content="摘星卡片支持 Mac 上的 Safari 与 Chrome：选中网页文字，一键生成带来源与原文二维码的分享卡片。八种版式、3× 高清导出、本地卡片库，数据只留在浏览器。">
     <meta name="theme-color" content="#0d1017">
     <link rel="canonical" href="https://starcard.foxlaoy.com/">
     <link rel="icon" type="image/png" href="assets/icon48.png">
@@ -19,7 +19,7 @@
     <meta property="og:image" content="https://starcard.foxlaoy.com/assets/og-cover.png">
     <meta name="twitter:card" content="summary_large_image">
 
-    <link rel="stylesheet" href="assets/site.css">
+    <link rel="stylesheet" href="assets/site.css?v=mac-1.6.1">
     <script>document.documentElement.classList.add('js');</script>
     <script type="application/ld+json">
     {
@@ -73,6 +73,7 @@
             </a>
 
             <nav class="nav" aria-label="主导航">
+                <a href="#mac">Mac 版</a>
                 <a href="#layouts">八种版式</a>
                 <a href="#features">功能细节</a>
                 <a href="#library">卡片库</a>
@@ -90,6 +91,7 @@
             </div>
         </div>
         <nav class="mobile-nav" id="mobileNav" aria-label="移动导航" hidden>
+            <a href="#mac">Mac 版</a>
             <a href="#layouts">八种版式</a>
             <a href="#features">功能细节</a>
             <a href="#library">卡片库</a>
@@ -108,20 +110,22 @@
 
             <div class="container hero__grid">
                 <div class="hero__copy">
-                    <p class="eyebrow"><span class="eyebrow__dot"></span> Chrome 扩展 · v1.6 已更新</p>
+                    <p class="eyebrow"><span class="eyebrow__dot"></span> Mac 版 v1.6.1 已上架 · Chrome 版继续可用</p>
                     <h1 id="heroTitle">把网页里的<br><span class="hl">好句子</span>，<br>摘成一张卡片。</h1>
                     <p class="hero__lead">选中任意网页文字，一键生成带来源与原文二维码的分享卡片。八种版式、3× 高清导出，卡片只保存在你的浏览器里。</p>
                     <div class="hero__actions">
-                        <a class="btn btn--gold btn--lg" href="https://chromewebstore.google.com/detail/%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87/begimcgdknolpegbnajppnilboonmfgf" target="_blank" rel="noopener">
+                        <a class="btn btn--gold btn--lg" href="https://apps.apple.com/cn/app/id6827067557?mt=12">
+                            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+                            Mac App Store
+                            <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+                        </a>
+                        <a class="btn btn--ghost btn--lg" href="https://chromewebstore.google.com/detail/%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87/begimcgdknolpegbnajppnilboonmfgf" target="_blank" rel="noopener">
                             <svg class="icon" aria-hidden="true"><use href="#i-chrome"/></svg>
                             添加到 Chrome
                             <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
                         </a>
-                        <a class="btn btn--ghost btn--lg" href="#layouts">
-                            看看八种版式
-                            <svg class="icon" aria-hidden="true"><use href="#i-down"/></svg>
-                        </a>
                     </div>
+                    <p class="hero__setup"><a href="#mac">查看 Safari 安装步骤 <span aria-hidden="true">↓</span></a><a href="#layouts">看看八种版式</a></p>
                     <ul class="hero__notes">
                         <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>免费使用</li>
                         <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>无需注册</li>
@@ -183,6 +187,28 @@
                 <div class="trust-item"><strong>0</strong><span>摘录上传</span></div>
                 <div class="trust-item"><strong>本地</strong><span>IndexedDB 卡片库</span></div>
                 <div class="trust-item trust-item--wide"><strong>Chrome Web Store</strong><span>已上架 · v1.6</span></div>
+            </div>
+        </section>
+
+        <section class="section mac-launch" id="mac" aria-labelledby="macTitle">
+            <div class="container mac-launch__grid">
+                <div class="mac-launch__copy">
+                    <p class="kicker">Mac App Store · v1.6.1</p>
+                    <h2 id="macTitle">摘星卡片，<br>也能在 Safari 用了。</h2>
+                    <p class="section-lead">在 Mac 上读网页，划下值得记住的一句。装好后只需开启 Safari 扩展，摘录就能变成卡片。</p>
+                    <ol class="install-steps mac-launch__steps">
+                        <li><span>1</span><div><strong>在 Mac App Store 获取</strong><p>安装并打开「摘星卡片」。</p></div></li>
+                        <li><span>2</span><div><strong>启用 Safari 扩展</strong><p>在 Safari 浏览器的「设置」中打开「扩展」，勾选「摘星卡片」。</p></div></li>
+                        <li><span>3</span><div><strong>选一句话，生成卡片</strong><p>在普通网页选中文字，按扩展提示生成卡片。如 Safari 询问网页访问权限，可按需对当前网站授权。</p></div></li>
+                    </ol>
+                    <a class="btn btn--gold btn--lg" href="https://apps.apple.com/cn/app/id6827067557?mt=12">
+                        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> 在 Mac App Store 获取
+                    </a>
+                    <p class="mac-launch__fallback">如果商店网页没有打开，在 Mac 上打开 App Store，搜索「摘星卡片」。</p>
+                </div>
+                <figure class="mac-launch__figure">
+                    <img src="assets/mac-launch-poster-v161.webp" width="1448" height="1086" loading="lazy" decoding="async" alt="橘白猫坐在书桌旁，桌上是显示摘星卡片的笔记本电脑；海报文字：摘星卡片，Mac 版上架啦！">
+                </figure>
             </div>
         </section>
 
@@ -552,6 +578,10 @@
                         <p>浏览器画布有尺寸上限。普通卡片会优先用 3 倍；长文依次尝试 2 倍、1.5 倍。仍超出安全尺寸时会停止绘图，但完整原文会保留，可以复制文字或换版式重试。</p>
                     </details>
                     <details>
+                        <summary>Mac 安装后，为什么 Safari 里还不能用？</summary>
+                        <p>安装后还需要在 Safari 浏览器「设置 → 扩展」勾选「摘星卡片」。如果当前网站没有授权，Safari 可能在首次使用时询问你。详见 <a href="#mac">Mac 安装步骤</a>。</p>
+                    </details>
+                    <details>
                         <summary>支持 Edge、Arc 这些浏览器吗？</summary>
                         <p>支持基于 Chromium 的浏览器，包括 Edge、Arc、Brave 等。安装方式与 Chrome 相同，在对应浏览器的扩展商店中安装或加载 Chrome Web Store 版本。</p>
                     </details>
@@ -572,7 +602,7 @@
                     <span class="brand__name">摘星卡片</span>
                 </a>
                 <p>把值得记住的句子，摘下来。</p>
-                <span class="footer-version">Chrome 扩展 · v1.6 · 2026</span>
+                <span class="footer-version">Mac Safari · v1.6.1 ／ Chrome · v1.6</span>
             </div>
 
             <div class="footer-cols">
@@ -585,6 +615,7 @@
                 </div>
                 <div>
                     <h4>资源</h4>
+                    <a href="https://apps.apple.com/cn/app/id6827067557?mt=12">Mac App Store</a>
                     <a href="https://chromewebstore.google.com/detail/%E6%91%98%E6%98%9F%E5%8D%A1%E7%89%87/begimcgdknolpegbnajppnilboonmfgf" target="_blank" rel="noopener">Chrome Web Store</a>
                     <a href="https://github.com/foxmuldery/starscard" target="_blank" rel="noopener">GitHub 源码</a>
                     <a href="privacy.html">隐私政策</a>

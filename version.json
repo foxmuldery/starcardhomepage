@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
-  "buildNumber": 4136,
+  "buildNumber": 4141,
   "channel": "beta",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4136/app-release.apk",
-  "sha256": "0aa2235394b368465bd49ffb55ae504da9ed2102ea11e97cb2c0426586b8fcfa",
-  "size": 209028930,
-  "liteApkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4136/app-ota-lite.apk",
-  "liteDownloadUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4136/app-ota-lite.apk",
-  "liteSha256": "ad8c11081cf2f7bd47caf99363c045d2aa3c4432da40e97b7143880968b9a6fd",
-  "liteSize": 48910711,
-  "publishedAt": "2026-11-24T19:02:00+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-release.apk",
+  "sha256": "c4e47242765577e560f984664dc4aa3abd84c194fb475fbddaf8303f1b6e736f",
+  "size": 209113162,
+  "liteApkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-ota-lite.apk",
+  "liteDownloadUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-ota-lite.apk",
+  "liteSha256": "4a4590bd0a6a18b6f3c329357828730d3b4ed4721cfcf531c3943f4398f008d5",
+  "liteSize": 48965654,
+  "publishedAt": "2026-11-25T11:04:00+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4136) · 搜索框一触即弹软键盘 × 双包智能轻量在线更新】\n1. 🔍 修复搜索框反复点击才弹键盘问题：根治了竖屏与折叠屏宽屏点按搜索按钮时，因输入法弹起触发布局重建导致键盘中途被收起的问题，现在无论竖屏、宽屏还是收起键盘后再点输入框，轻点一次即可秒弹输入法。\n2. ⚡ 升级双包智能轻量在线更新：从旧版本直接应用内升级时，将自动识别并复用本机已有的离线语音模型，仅需下载约 46.6 MB 轻量更新包（省去 160 MB 重复模型下载）；首次全新安装仍自动获取完整包，安全无缝切换。\n3. ✨ 包含近期全量体验升级：真实老式机械开关 & 厚棉纸棚录音效、4 档滑杆自定义分类名称与莫兰迪色脊、滑杆直通录音默认分类，以及清爽的「分类 · 闪记」合集长图导出。"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4141) · 全栈数据安全与可靠性大加固】\n1. 🛡️ 多端同步与本地存储全面加固：同步按每条记录版本严格核验，杜绝覆盖刚保存的本机新笔记；双端同时编辑无条件保留冲突副本不丢字；删除卡片与同步记录同事务原子落盘，异常中断也不留脏状态。\n2. 📥 系统分享与离线提醒更稳更准：彻底修复系统相册单图/多图分享的图片解码边界隐患，外部文字、单图、多图分享先落盘确认再安全入库，杜绝重复或漏图；语音自动提醒以系统真实排程回执为准，更换提醒不再误删旧闹钟，恢复旧录音按录制时间精准推算相对日期，完整支持繁简体时间识别。\n3. ⚡ 录音与在线升级更安全：多入口快速录音与离线语音模型初始化加锁防冲突；应用内升级强制完整校验安装包哈希与签名，支持安全断点续传与 0 延迟复用本机离线模型（轻量升级仅约 46.7 MB）。\n4. 🔒 隐私与细节体验打磨：诊断日志彻底隐藏笔记正文与转写内容；多选时切换分类或搜索自动退出防误删；合集长图导出等待配图完全加载并自适应清晰度；支持直接搜 #标签，自定义分类持久化更稳健。"
 }

@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
-  "buildNumber": 4141,
+  "buildNumber": 4145,
   "channel": "internal",
-  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-release.apk",
-  "sha256": "c4e47242765577e560f984664dc4aa3abd84c194fb475fbddaf8303f1b6e736f",
-  "size": 209113162,
-  "liteApkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-ota-lite.apk",
-  "liteDownloadUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4141/app-ota-lite.apk",
-  "liteSha256": "4a4590bd0a6a18b6f3c329357828730d3b4ed4721cfcf531c3943f4398f008d5",
-  "liteSize": 48965654,
-  "publishedAt": "2026-11-25T11:04:00+08:00",
+  "apkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4145/app-release.apk",
+  "sha256": "28b033e2fec9eeea580a0a6affd74ed2751fa1d2846513f2de69cfbf8ce25a0d",
+  "size": 209241978,
+  "liteApkUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4145/app-ota-lite.apk",
+  "liteDownloadUrl": "https://github.com/foxmuldery/starcardhomepage/releases/download/v1.0.0-4145/app-ota-lite.apk",
+  "liteSha256": "9f9fd707a9fbb0f71c950309228789ea7cec66d08b6cbe7e3a3da61317f2b94c",
+  "liteSize": 49123793,
+  "publishedAt": "2026-11-27T15:17:41+08:00",
   "forceUpdate": false,
-  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4141) · 全栈数据安全与可靠性大加固】\n1. 🛡️ 多端同步与本地存储全面加固：同步按每条记录版本严格核验，杜绝覆盖刚保存的本机新笔记；双端同时编辑无条件保留冲突副本不丢字；删除卡片与同步记录同事务原子落盘，异常中断也不留脏状态。\n2. 📥 系统分享与离线提醒更稳更准：彻底修复系统相册单图/多图分享的图片解码边界隐患，外部文字、单图、多图分享先落盘确认再安全入库，杜绝重复或漏图；语音自动提醒以系统真实排程回执为准，更换提醒不再误删旧闹钟，恢复旧录音按录制时间精准推算相对日期，完整支持繁简体时间识别。\n3. ⚡ 录音与在线升级更安全：多入口快速录音与离线语音模型初始化加锁防冲突；应用内升级强制完整校验安装包哈希与签名，支持安全断点续传与 0 延迟复用本机离线模型（轻量升级仅约 46.7 MB）。\n4. 🔒 隐私与细节体验打磨：诊断日志彻底隐藏笔记正文与转写内容；多选时切换分类或搜索自动退出防误删；合集长图导出等待配图完全加载并自适应清晰度；支持直接搜 #标签，自定义分类持久化更稳健。"
+  "releaseNotes": "【留声闪记 FLASH MEMO v1.0.0 (4145) · 隐私防护与全链路可靠性升级】\n1. 🔒 整机防尘罩隐私锁与单条私密信封：全新博朗 SK 4 磨砂防尘罩整机隐私保护，上锁状态下依然支持 0 延迟直接按住盲录；单条私密闪记改用极简实体封口信封全遮盖，指纹或面容验证后即可拆封查看。\n2. 🛡️ 息屏即锁与防误解锁加固：锁屏或息屏时自动立即重新上锁，验证途中切走或息屏会立刻作废本次验证，避免误开私密内容。\n3. 📥 分享收图、离线提醒与多设备同步更稳妥：修复相册多图分享异常重试时的图片错位风险；进一步打磨离线语音自动提醒准确度；多设备云同步支持自动发现并无损合并并发冲突（完整覆盖笔记、热词、物品与修正对，不丢一字）。\n4. ✨ 设置与界面细节打磨：设置页将「检查更新」与在线补丁状态合并为一处，查看版本与重启生效更直观；持续优化纯硬件模式与界面细节，老用户轻量升级包约 46.8 MB 即可无缝复用本机离线模型。"
 }
